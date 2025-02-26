@@ -5,7 +5,7 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 ### Installation
 
 ```bash
-npm ci
+npm install
 ```
 
 ### Local Development
