@@ -53,6 +53,11 @@ html[data-theme='dark'] .header-github-link:before {
   height: auto;
 }
 
-.footer__links{
-  text-align: center;
+.footer__col{
+  width: fit-content;
+}
+
+.footer__title, .clean-list{
+  margin-left: 50%;
+  transform: translateX(-20%);
 }
