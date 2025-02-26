@@ -52,3 +52,7 @@ html[data-theme='dark'] .header-github-link:before {
   width: 50%;
   height: auto;
 }
+
+.footer__links{
+  text-align: center;
+}
