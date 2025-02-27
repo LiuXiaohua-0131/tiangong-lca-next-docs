@@ -22,5 +22,21 @@
   "sidebar.tutorialSidebar.category.FAQ.link.generated-index.description": {
     "message": "5 minutes to learn the most important Docusaurus concepts.",
     "description": "The generated-index page description for category FAQ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing & Development": {
+    "message": "Contributing & Development",
+    "description": "The label for category Contributing & Development in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contributing & Development.link.generated-index.description": {
+    "message": "Guidance for Contributing & Development.",
+    "description": "The generated-index page description for category Contributing & Development in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Deloyment": {
+    "message": "Deloyment",
+    "description": "The label for category Deloyment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Deloyment.link.generated-index.description": {
+    "message": "Guidance for deployment.",
+    "description": "The generated-index page description for category Deloyment in sidebar tutorialSidebar"
   }
 }
