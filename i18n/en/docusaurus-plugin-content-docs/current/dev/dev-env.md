@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Environment Setup
 
-## Install dependencies
+## Installing Dependencies
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
@@ -16,53 +16,51 @@ nvm use
 npm install
 ```
 
-## Provided Scripts
+## Configuration Files
 
-Scripts provided in `package.json`. It's safe to modify or add additional script:
+You can modify or add extra scripts in the `package.json` file. Below are some pre-configured script commands:
 
-### Start project
+### Debug the Project
+
+🚀 **Start the project in debug mode using the command below** 🚀:
 
 ```bash
 npm start
 ```
 
-### Build project
+The application will run at: [localhost:8000](http://localhost:8000/)
 
-```bash
-npm run build
-```
-
-### Check code style
+### Check Code Formatting
 
 ```bash
 npm run lint
 ```
 
-You can also use script to auto fix some lint error:
+### Check and Auto-Fix Code Formatting
 
 ```bash
 npm run lint:fix
 ```
 
-### Test code
+### Run Tests
 
 ```bash
 npm test
 ```
 
-### Publish
+### Build the Project
 
 ```bash
-#list existing tags
-git tag
-#creat a new tag
-git tag v0.0.1
-#push this tag to origin
-git push origin v0.0.1
+npm run build
 ```
 
-## You can now run the Next.js local development server
+# Automatic Deployment
+The project's `.github/workflows/build.yml` file is configured with an automatic deployment workflow based on version tags. Simply create a tag that follows the format ‘v*’ locally and push it to the remote repository to trigger a deployment. By configuring the keys `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` in the project, automatic deployment to Cloudflare Pages is enabled.
 
-🚀 **Use VSCode Launch Program configuration to Debug!** 🚀
-
-The app should now be running on [localhost:8000](http://localhost:8000/).
+```bash
+# List existing tags
+git tag
+# Create a new tag
+git tag v0.0.1
+# Push the tag to the remote repository
+git push origin v0.0.1
