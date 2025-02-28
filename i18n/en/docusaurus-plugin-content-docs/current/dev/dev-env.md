@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Environment Setup
+# Project Setup
 
 ## Installing Dependencies
 
@@ -54,7 +54,7 @@ npm test
 npm run build
 ```
 
-# Automatic Deployment
+## Automatic Deployment
 The project's `.github/workflows/build.yml` file is configured with an automatic deployment workflow based on version tags. Simply create a tag that follows the format ‘v*’ locally and push it to the remote repository to trigger a deployment. By configuring the keys `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` in the project, automatic deployment to Cloudflare Pages is enabled.
 
 ```bash

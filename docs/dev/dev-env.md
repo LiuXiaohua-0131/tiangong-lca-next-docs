@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 环境配置
+# 项目配置
 
 ## 安装依赖
 
@@ -54,7 +54,7 @@ npm test
 npm run build
 ```
 
-# 自动发布
+## 自动发布
 项目的 .github/workflows/build.yml 文件中配置了基于 tag 的自动发布流程，只需在本地创建一个符合'v*'格式的 tag 并推送到远程仓库即可触发发布。通过在项目中配置密钥 CLOUDFLARE_API_TOKEN 和 CLOUDFLARE_ACCOUNT_ID，即可实现自动部署到 Cloudflare Pages。
 
 ```bash
