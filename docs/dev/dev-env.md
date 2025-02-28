@@ -60,8 +60,10 @@ npm run build
 ```bash
 # 列出已有标签
 git tag
+
 # 创建一个新的标签
 git tag v0.0.1
+
 # 将该标签推送到远程
 git push origin v0.0.1
 ```

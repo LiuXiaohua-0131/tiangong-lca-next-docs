@@ -60,7 +60,9 @@ The project's `.github/workflows/build.yml` file is configured with an automatic
 ```bash
 # List existing tags
 git tag
+
 # Create a new tag
 git tag v0.0.1
+
 # Push the tag to the remote repository
 git push origin v0.0.1
