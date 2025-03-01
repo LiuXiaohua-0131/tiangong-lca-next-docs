@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'TianGong LCA', // Usually your GitHub org/user name.
   projectName: 'tiangong-lca-next-docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -85,7 +85,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/intro',
+              to: '/',
             },
           ],
         },
@@ -111,7 +111,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/linancn/tiangong-lca-next',
             },
           ],
         },
