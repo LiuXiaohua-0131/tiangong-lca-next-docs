@@ -55,22 +55,26 @@ docker compose up -d
 
 在所有服务运行后，你可以访问：
 
-- **TianGong LCA 应用**：http://localhost:8000
+- **TianGong LCA 应用**：[http://localhost:8000](http://localhost:8000)
 
   - 默认用户：
-    - 邮箱：admin@tiangong.earth
+    - 邮箱：[admin@tiangong.earth](mailto:admin@tiangong.earth)
     - 密码：TianGongAdmin
 
-- **Supabase Studio**：http://localhost:54321
+- **Supabase Studio**：[http://localhost:54321](http://localhost:54321)
 - **Postgres**：
   - 用于基于会话的连接（相当于直接连接 Postgres）:
+
     ```bash
     psql 'postgres://postgres.your-tenant-id:your-super-secret-and-long-postgres-password@localhost:5432/postgres'
     ```
+
   - 用于池化的事务连接：
+
     ```bash
     psql 'postgres://postgres.your-tenant-id:your-super-secret-and-long-postgres-password@localhost:6543/postgres'
     ```
+
 - 关于如何使用 Supabase Studio 和 Postgres 的更多信息，请参阅 [Supabase 文档](https://supabase.com/docs/guides/self-hosting/docker#accessing-postgres)。
 
 ## Docker 服务管理
