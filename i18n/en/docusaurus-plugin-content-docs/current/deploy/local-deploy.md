@@ -55,22 +55,26 @@ This will start the following services:
 
 Once all services are running, you can access:
 
-- **Tiangong LCA Application**: http://localhost:8000
+- **Tiangong LCA Application**: [http://localhost:8000](http://localhost:8000)
 
   - Default User
-    - Email: admin@tiangong.earth
+    - Email: [admin@tiangong.earth](mailto:admin@tiangong.earth)
     - Password: TianGongAdmin
 
-- **Supabase Studio**: http://localhost:54321
+- **Supabase Studio**: [http://localhost:54321](http://localhost:54321)
 - **Postgres**:
   - For session-based connections (equivalent to direct Postgres connections):
+
     ```bash
     psql 'postgres://postgres.your-tenant-id:your-super-secret-and-long-postgres-password@localhost:5432/postgres'
     ```
+
   - For pooled transactional connections:
+
     ```bash
     psql 'postgres://postgres.your-tenant-id:your-super-secret-and-long-postgres-password@localhost:6543/postgres'
     ```
+
 - See the [Supabase Documentation](https://supabase.com/docs/guides/self-hosting/docker#accessing-postgres) for more information on how to use the Supabase Studio and Postgres.
 
 ## Docker Service Management

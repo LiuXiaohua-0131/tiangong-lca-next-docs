@@ -20,7 +20,7 @@ The TianGong LCA platform supports the following key functions:
 
   **Updates**: Benefit from regular database and methodology updates, ensuring that you are always working with the latest LCA standards and industry best practices.
 
-The TianGong LCA platform provides comprehensive support for your LCA data management and environmental impact assessment, helping you achieve more accurate results in sustainability research. 
+The TianGong LCA platform provides comprehensive support for your LCA data management and environmental impact assessment, helping you achieve more accurate results in sustainability research.
 
 ## Quick Start
 
@@ -54,7 +54,7 @@ The **FAQ** module helps you quickly find answers related to the TianGong LCA pl
 
 ## Resources and Support
 
-The TianGong LCA platform provides extensive resources and support to ensure you can use the platform efficiently and resolve any issues you may encounter. 
+The TianGong LCA platform provides extensive resources and support to ensure you can use the platform efficiently and resolve any issues you may encounter.
 
   **Learning Resources**: Access operation videos and tutorials categorized by knowledge modules, helping you systematically learn the functions of TianGong LCA and gradually master both basic and advanced operations.
 
