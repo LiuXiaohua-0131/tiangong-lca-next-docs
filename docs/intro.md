@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # 简介
 
-TianGong LCA是一个自主研发的先进生命周期评估数据录入平台，用于精准量化环境影响并推动可持续发展研究。
+TianGong LCA 是一个基于 TIDAS（**TI**angong **DA**ta **S**ystem）数据系统的开源LCA数据平台。该平台提供灵活的使用方式，用户既可选择[**在线系统**](https://lca.tiangong.earth/)，也可在本地进行[**私有化部署**](/docs/deploy/local-deploy.md)。TianGong LCA平台支持多团队多用户协作，团队成员可以共同执行复杂的LCA数据制备项目。
 
 TianGong LCA 平台支持以下关键功能：
 
@@ -31,12 +31,6 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 - **数据集的搜索与下载**: 掌握在平台上搜索和下载 LCA 数据集的基础操作，确保您能够快速获取所需数据。
 
 - **操作演示**: 通过示例操作，了解如何执行基础数据操作，例如简单的数据集下载或数据浏览。这将帮助您熟悉平台的核心功能。
-<!-- Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**. -->
-
-<!-- ### 必备环节
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies. -->
 
 ## 用户指引
 

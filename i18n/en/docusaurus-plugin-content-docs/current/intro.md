@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Introduction
 
-**TianGong LCA** is an advanced, self-developed platform for life cycle assessment (LCA) data entry, designed to accurately quantify environmental impacts and promote sustainability research.
+TianGong LCA is an open-source LCA data platform built upon the TIDAS (**T**Iangong **DA**ta **S**ystem) data system. The platform offers flexible usage options, allowing users to either access the [**online system**](https://lca.tiangong.earth/) or implement [**local deployment**](/i18n/en/docusaurus-plugin-content-docs/current/deploy/local-deploy.md). TianGong LCA supports multi-team and multi-user collaboration, enabling team members to work together on complex LCA data preparation projects.
 
 The TianGong LCA platform supports the following key functions:
 
