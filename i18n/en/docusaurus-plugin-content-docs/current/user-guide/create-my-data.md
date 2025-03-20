@@ -21,7 +21,7 @@ When filling in objects, if you encounter situations where language selection is
 ![](../../../../../docs/user-guide/img/create-4.png)  
 **4. Selecting Data**  
 For content that needs to be selected, such as "Dataset Format" and "Compliance System Name", click the "Select" button, and in the upper bar of the pop-up page, choose the correct dataset from the three data groups: "TianGong Data", "My Data", and "Team Data", then [search](/docs/quick-start/search.md) for the target object and submit.  
-![](./user-guide/img/create-5.png)  
+![](../../../../../docs/user-guide/img/create-5.png)  
 **5. Format Specifications**  
 | Category | Format Name | UUID |
 | ---------- | ------------------------------------------ | ---------------------------------------- |
