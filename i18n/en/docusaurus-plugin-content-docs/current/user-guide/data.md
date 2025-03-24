@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# My Data
+# Data
 
 The **My Data** module is composed of six sections: Unit Process, Flow, Flow Property, Unit, Data Source, and Contact, allowing users to build data as needed.
 
