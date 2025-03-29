@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
-# 数据搜索功能
+# 数据搜索
 
 天工LCA平台提供强大的全文搜索功能，支持在所有数据模块中进行跨字段搜索。这一特性使天工LCA平台在数据检索能力上显著优于其他LCA平台。
 
@@ -25,18 +25,9 @@ sidebar_position: 2
 
 ![过程数据搜索](./img/search.png)
 
-其中"crude steel production; Hotrolling; Production mix, in the factory"过程数据集，是因为其input选择了"coal"流，所以也被搜索到了。
+> 其中"crude steel production; Hotrolling; Production mix, in the factory"过程数据集，是因为其input选择了"coal"流，所以也被搜索到了。
 
 ![输入输出中包含搜索词](./img/input-with-coal.png)
-
-## 搜索功能优势
-
-| 功能 | 天工LCA平台 | 其他LCA平台 |
-|------|-------------|-------------|
-| 全文搜索 | ✔️ 支持所有字段 | ❌ 仅支持名称搜索 |
-| 跨模块搜索 | ✔️ 统一搜索界面 | ❌ 需切换模块 |
-| 智能匹配 | ✔️ 支持智能搜索 | ❌ 仅支持精确匹配 |
-| 实时结果 | ✔️ 即时显示 | ❌ 需要刷新页面 |
 
 ## 注意事项
 

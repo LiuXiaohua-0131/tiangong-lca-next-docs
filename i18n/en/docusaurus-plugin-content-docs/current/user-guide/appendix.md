@@ -10,4 +10,3 @@
 | Registration authority | Data supervision/registration authority | Optional, single selection | IEDA |
 | Owner of data set | The person who owns the intellectual property rights of the data (may be different from the commissioner) | Recommended, single selection | Company A |
 | Entities or persons with exclusive access to this data set | The person who has absolute access to the dataset | Optional, multiple selection | Group E |
-

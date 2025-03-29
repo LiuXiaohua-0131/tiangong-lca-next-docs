@@ -5,11 +5,11 @@ sidebar_position: 3
 # Open Data and Commercial Data
 
 ## Data Comparison
+
 | Data Type | Components | User Permissions | Content |
 |-----------|------------|-----------------|---------|
 | Open Data | Processes, Flows, Flow Properties, Unit Groups, Sources, Contacts, Models | View/Reference | Standardized life cycle assessment datasets reviewed by the platform |
 | Commercial Data | Processes, Flows, Flow Properties, Unit Groups, Sources, Contacts | View | Metadata information (descriptive information) of commercial life cycle assessment datasets |
-
 
 >Note:  
 Both types of data **do not support direct modification**. If you need to adjust data information, you must first save the target data to the ["My Data"](./create-my-data.md) module, then make modifications, and then reference it in the ["My Data"](./create-my-data.md) module.
@@ -54,14 +54,13 @@ On the "All Versions" page, you can view all historical versions of the data. Cl
 ![Before modification](./img/open-20.png)
 ![](./img/open-21.png)
 
-**Method 2** 
+**Method 2**
 
 1. Click the "Add New Version" button on the "All Versions" page to enter the "Create Version" page, then click "Save".  
 2. Find the corresponding data copy in the data platform - "My Data" and modify it there (see [My Data](./create-my-data.md) for specific operation guidelines).
 ![](./img/open-16.png)
 ![](./img/open-17.png)
 ![](./img/open-18.png)
-
 
 >Note:  
 You must update the version number before saving. The system will verify the uniqueness of the version number, and duplicate version numbers will be rejected.
