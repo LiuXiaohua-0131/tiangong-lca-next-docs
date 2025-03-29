@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # 简介
 
-TianGong LCA 是一个基于 [TIDAS](https://tidas.tiangong.earth/)（**TI**angong **DA**ta **S**ystem）数据系统的开源LCA数据平台。该平台提供灵活的使用方式，用户既可选择[**在线系统**](https://lca.tiangong.earth/)，也可在本地进行[**私有化部署**](/docs/deploy/local-deploy.md)。TianGong LCA平台支持多团队多用户协作，团队成员可以共同执行复杂的LCA数据制备项目。
+TianGong LCA 是一个基于 [**TIDAS**](https://tidas.tiangong.earth/)（**TI**angong **DA**ta **S**ystem）数据系统的开源LCA数据平台。该平台提供灵活的使用方式，用户既可选择[**在线系统**](https://lca.tiangong.earth/)，也可在本地进行[**私有化部署**](/docs/deploy/local-deploy.md)。TianGong LCA平台支持多团队多用户协作，团队成员可以共同执行复杂的LCA数据制备项目。
 
 TianGong LCA 平台支持以下关键功能：
 
@@ -26,7 +26,7 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 
 **快速开始**模块旨在帮助您迅速上手 TianGong LCA 平台，完成关键的初始操作：
 
-- **[首次登录与注册](/docs/quick-start/first-login.md)**: 学习如何创建账户、登录平台，并了解主界面的基本布局，快速定位所需功能。
+- **[注册与登录](/docs/quick-start/first-login.md)**: 学习如何创建账户、登录平台，并了解主界面的基本布局，快速定位所需功能。
 
 - **[数据集搜索](/docs/quick-start/search.md)**: 掌握在平台上搜索和下载 LCA 数据集的基础操作，确保您能够快速获取所需数据。
 
