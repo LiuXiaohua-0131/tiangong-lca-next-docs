@@ -48,6 +48,8 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 
 - **[建立我的数据](/docs/user-guide/create-my-data.md)**：了解如何通过TianGong LCA平台创建自己的数据
 
+- **[建立我的数据](/docs/user-guide/create-my-data.md)**：了解如何通过TianGong LCA平台创建自己的数据
+
 ## 常见问题
 
 **常见问题**模块帮助您快速找到关于 TianGong LCA 平台的解答。以下是我们涵盖的主要问题类别，点击相关链接查看详细解答：
