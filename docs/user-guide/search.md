@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 # 数据搜索
@@ -28,7 +28,6 @@ sidebar_position: 2
 > 其中"crude steel production; Hotrolling; Production mix, in the factory"过程数据集，是因为其input选择了"coal"流，所以也被搜索到了。
 
 ![输入输出中包含搜索词](./img/input-with-coal.png)
-
 
 ## 注意事项
 
