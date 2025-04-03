@@ -30,8 +30,6 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 
 - **[操作演示](/docs/quick-start/demonstrations.md)**: 通过示例操作，了解如何执行基础数据操作，例如简单的数据集下载或数据浏览。这将帮助您熟悉平台的核心功能。
 
-- **[案例介绍](/docs/quick-start/case_introduction.md)**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
-
 ## 用户指引
 
 **用户指引**模块详细介绍 TianGong LCA 平台的各项核心功能，帮助您全面掌握平台的使用方法：
@@ -46,11 +44,12 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 
 - **[数据集搜索](/docs/quick-start/search.md)**: 掌握在平台上搜索和下载 LCA 数据集的基础操作，确保您能够快速获取所需数据。
 
+## 使用案例介绍
+- **[案例介绍](/docs/case-introduction/case_introduction.md)**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
+
 ## 平台部署
 
-- **[建立我的数据](/docs/user-guide/create-my-data.md)**：了解如何通过TianGong LCA平台创建自己的数据
-
-- **[建立我的数据](/docs/user-guide/create-my-data.md)**：了解如何通过TianGong LCA平台创建自己的数据
+- **[建立我的数据](/docs/deploy/local-deploy.md)**：了解如何通过TianGong LCA平台创建自己的数据
 
 ## 常见问题
 
