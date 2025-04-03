@@ -38,5 +38,13 @@
   "sidebar.tutorialSidebar.category.Deloyment.link.generated-index.description": {
     "message": "部署指南",
     "description": "The generated-index page description for category Deloyment in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Case Introduction": {
+    "message": "案例介绍",
+    "description": "The label for category Case Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Case Introduction.link.generated-index.description": {
+    "message": "案例介绍",
+    "description": "The generated-index page description for category Case Introduction in sidebar tutorialSidebar"
   }
 }
