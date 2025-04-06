@@ -6,10 +6,9 @@ sidebar_position: 2
 
 新建单元过程的平台操作流程参考[新建数据-新建过程](user-guide/create-my-data.md#新建过程)
 
-### 过程信息
+## 过程信息
 
-
-**基本名称/处理、标准、路线/混合和位置类型/定量产品或过程属性**
+### 基本名称/处理、标准、路线/混合和位置类型/定量产品或过程属性
 
 【**生物质加工**】 生物质加工; 预处理，造粒、干燥; 生产混合，在工厂
 
@@ -21,7 +20,7 @@ sidebar_position: 2
 
 【**甲醇生产**】甲醇生产; 生物质制甲醇; 生产混合，在工厂；甲醇质量分数> 99%
 
-见文献 “The puriffed syngas is compressed and added to the 
+见文献 “The puriffed syngas is compressed and added to the
 methanol synthesizer in the last step, where a catalyst helps to produce crude methanol. ”
 
 尽管文献未在当前单元过程描述中直接给出产品浓度，但在其他部分明确提及最终甲醇产品需满足“甲醇质量分数 > 99%”的标准（如：“Additional separation and purification of unreacted CO₂ and solvent are needed to produce a methanol product (with a methanol mass fraction > 99%) that satisfies criteria.”）。因此，可据此作为依据，在甲醇生产过程的命名中补充产品标准信息。
@@ -36,10 +35,10 @@ methanol synthesizer in the last step, where a catalyst helps to produce crude m
 
 【二氧化碳捕集制甲醇】中：二氧化碳捕集; 空气捕获（DAC）技术; 生产混合，在工厂; CO2 浓度 99.5%~99.7%
 
->注意点：   
+>注意点：
 所有字段均需填写中英文名称，确保模型兼容多语言显示。
 
-**数据集一般性说明**
+### 数据集一般性说明
 
 以【生物质加工】为例
 
@@ -52,13 +51,13 @@ methanol synthesizer in the last step, where a catalyst helps to produce crude m
 
 备注：文献未明确说明数据采集或模拟对应的时间点或时间段。考虑到文章发表于 2024 年，且未涉及未来场景建模，故推定其数据代表性为 2020–2023 年期间的行业平均水平，用于当前工艺的生命周期分析具有适用性。
 
-**地理代表性**
+### 地理代表性
 
 CN（中国）
 
 文献中已明确提出。
 
-**流程图或工艺图**
+### 流程图或工艺图
 
 尽管文献已提供完整的系统边界图，但当前建模仅针对其中的单一过程，因此需从原图中提取该过程对应的部分另行上传，或根据文献描述自行绘制该过程的简化流程图，以便在平台中准确展示其边界与输入输出关系。
 
@@ -66,7 +65,7 @@ CN（中国）
 
 ### 建模信息
 
-**LCI方法和分配**
+### LCI方法和分配
 
 数据集类型：单元过程，单一操作
 
@@ -98,7 +97,6 @@ CN（中国）
 
 ![替代文字](./img/input-output-1.png)
 
-
 【生物质气化】
 
 当前过程存在输入输出**不平衡**，主要原因在于锅炉用水为系统内部循环使用，未作为最终排放计入输出流。需在**备注中予以说明**，以保证物料守恒逻辑清晰。
@@ -113,7 +111,6 @@ CN（中国）
 
 ---
 
-
 【甲醇生产】
 
 当前过程存在输入输出不平衡。为满足物料守恒要求，依据输入水量补充设置废水项，作为相应的输出流以平衡整体质量流动。需在备注中予以说明。
@@ -122,11 +119,9 @@ CN（中国）
 
 ![替代文字](./img/output-3.png)
 
-
 例：<u>考虑物料平衡，基于输入水量添加废水量以修正数据表。</u>
 
 ![替代文字](./img/wastewater-note.png)
-
 
 ### 新建流
 
