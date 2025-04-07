@@ -22,7 +22,7 @@ After clicking "+", an information editing page will pop up. First, click "Manag
 When filling in objects, if you encounter situations where language selection is required, English is always mandatory. You should fill in the content according to the prompts and ensure that the selected language matches the content.
 ![](./img/create-21.png)  
 **4. Selecting Data**  
-For content that needs to be selected, such as "Dataset Format" and "Compliance System Name", click the "Select" button, and in the upper bar of the pop-up page, choose the correct dataset from the three data groups: "TianGong Data", "My Data", and "Team Data", then [search](/docs/user-guide/search.md) for the target object and submit.  
+For content that needs to be selected, such as "Dataset Format" and "Compliance System Name", click the "Select" button, and in the upper bar of the pop-up page, choose the correct dataset from the three data groups: "TianGong Data", "My Data", and "Team Data", then search for the target object and submit.  
 ![](./img/create-20.png)  
 **5. Format Specifications**  
 
@@ -43,7 +43,6 @@ Click on "Input/Output" in the upper bar. After entering the page, select the "+
 ![](./img/create-23.png)
 **3. Reference Flow Settings**  
 Select the main output flow of the process, click the "Edit" button on the side of its list to reopen the "Create Input/Output" page, scroll to the bottom, add it as a reference flow, click save, return to the "Create Process" page, click save, and the process creation is complete.
-
 ![](./img/create-24.png)  
 
 ### Creating a Model
