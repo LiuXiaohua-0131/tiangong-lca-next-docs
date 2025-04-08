@@ -42,11 +42,11 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 
 - **[新建数据](/docs/user-guide/create-my-data.md)**: 学习如何创建和管理自己新建的 LCA 数据集，包括模型、过程、流和流属性等，确保数据的准确性和完整性。
 
-- **[数据集搜索](/docs/quick-start/search.md)**: 掌握在平台上搜索和下载 LCA 数据集的基础操作，确保您能够快速获取所需数据。
+- **[数据集搜索](/docs/user-guide/search.md)**: 掌握在平台上搜索和下载 LCA 数据集的基础操作，确保您能够快速获取所需数据。
 
 ## 使用案例介绍
 
-- **[案例介绍](/docs/case-introduction/case_introduction.md)**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
+- **[案例介绍]**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
 
 ## 平台部署
 
