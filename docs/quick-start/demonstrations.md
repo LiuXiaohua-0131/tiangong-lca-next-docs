@@ -8,7 +8,7 @@ sidebar_position: 3
 
 示例数据来源：[Comparative environmental assessment of methanol production technologies: A cradle-to-gate life cycle analysis](https://doi.org/10.1016/j.enconman.2024.118128)
 
-<div 
+<div
   style={{
     position: 'relative',
     paddingBottom: '56.25%',
@@ -17,12 +17,12 @@ sidebar_position: 3
     maxWidth: '100%',
   }}
 >
-  <iframe 
+  <iframe
     src="//player.bilibili.com/player.html?isOutside=true&aid=114295153168127&bvid=BV1YiRyYbE6h&cid=29278735266&p=1&autoplay=0"
-    scrolling="no" 
-    border="0" 
-    frameborder="no" 
-    framespacing="0" 
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
     allowfullscreen="true"
     style={{
       position: 'absolute',

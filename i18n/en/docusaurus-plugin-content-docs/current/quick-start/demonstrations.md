@@ -10,7 +10,7 @@ Example data source：[Comparative environmental assessment of methanol producti
 
 import ReactPlayer from 'react-player';
 
-<div 
+<div
   style={{
     position: 'relative',
     paddingBottom: '56.25%',
@@ -19,7 +19,7 @@ import ReactPlayer from 'react-player';
     maxWidth: '100%',
   }}
 >
-  <ReactPlayer 
+  <ReactPlayer
     url="https://www.youtube.com/watch?v=uZSvjVLW0po"
     controls
     width="100%"
