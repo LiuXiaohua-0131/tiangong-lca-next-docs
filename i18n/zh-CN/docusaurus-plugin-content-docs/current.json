@@ -46,5 +46,13 @@
   "sidebar.tutorialSidebar.category.Case Introduction.link.generated-index.description": {
     "message": "案例介绍",
     "description": "The generated-index page description for category Case Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Changelog": {
+    "message": "更新日志",
+    "description": "The label for category Case Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Changelog.link.generated-index.description": {
+    "message": "记录平台的功能更新、问题修复、性能优化与数据进展。",
+    "description": "The generated-index page description for category Case Introduction in sidebar tutorialSidebar"
   }
 }
