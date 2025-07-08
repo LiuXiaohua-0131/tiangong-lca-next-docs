@@ -57,11 +57,17 @@ docker compose up -d
 
 - **TianGong LCA 应用**：[http://localhost:8000](http://localhost:8000)
 
-  - 默认用户：
-    - 邮箱：[admin@tiangong.earth](mailto:admin@tiangong.earth)
-    - 密码：TianGongAdmin
+  - 为登录本地部署的TianGong LCA应用，需在`.env`文件中配置SMTP服务(参考[SMTP 服务说明与推荐](#smtp-服务说明与推荐))，并使用SMTP服务发送邮件进行注册认证。
+
 
 - **Supabase Studio**：[http://localhost:54321](http://localhost:54321)
+  - 使用在 `.env` 文件中配置的 `DASHBOARD_USERNAME` 和 `DASHBOARD_PASSWORD` 作为用户名和密码 登录。
+
+  ```bash
+  DASHBOARD_USERNAME=supabase
+  DASHBOARD_PASSWORD=this_password_is_insecure_and_should_be_updated
+  ```
+
 - **Postgres**：
   - 用于基于会话的连接（相当于直接连接 Postgres）:
 
@@ -161,6 +167,43 @@ cp -r temp_repo/supabase/functions/* supabase/functions/
 # 清理临时目录
 rm -rf temp_repo
 ```
+
+### SMTP 服务说明与推荐
+
+TianGong LCA 应用依赖 SMTP 服务发送注册和认证邮件。你需要在 `.env` 文件中正确配置 SMTP 相关变量，常见变量包括：
+
+- `SMTP_ADMIN_EMAIL`：SMTP 管理员邮箱
+- `SMTP_HOST`：SMTP 服务器地址
+- `SMTP_PORT`：SMTP 端口（通常为 465/587/25，取决于服务商和加密方式）
+- `SMTP_USER`：SMTP 登录用户名（通常为邮箱地址）
+- `SMTP_PASS`：SMTP 登录密码或授权码
+- `SMTP_SENDER_NAME`：发件人名称
+
+#### 推荐的 SMTP 服务
+
+你可以选择以下常见的 SMTP 服务：
+
+- 企业微信邮箱（推荐，支持 SSL/TLS，适合企业用户）[企业微信邮箱SMTP配置](https://open.work.weixin.qq.com/help2/pc/19886)
+- QQ 企业邮箱
+- 阿里云邮箱
+- 163 企业邮箱
+- SendGrid、Mailgun、Amazon SES（国际第三方邮件服务，适合大规模邮件发送）
+
+#### 企业微信邮箱 SMTP 配置示例
+
+以企业微信邮箱为例，`.env` 文件配置如下：
+
+```env
+SMTP_ADMIN_EMAIL=your_account@yourcompany.com
+SMTP_HOST=smtp.exmail.qq.com
+SMTP_PORT=465
+SMTP_USER=your_account@yourcompany.com
+SMTP_PASS=your_password_or_auth_code
+SMTP_SENDER_NAME=your_account@yourcompany.com
+```
+
+> 注意：部分邮箱服务（如 QQ、163）需开启“SMTP服务”并使用授权码而非登录密码。请参考对应邮箱服务的官方文档获取详细配置方法。
+
 
 ## 维护
 

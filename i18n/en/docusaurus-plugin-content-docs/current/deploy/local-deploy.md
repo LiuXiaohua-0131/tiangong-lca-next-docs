@@ -35,7 +35,7 @@ Important variables to configure:
 - `JWT_SECRET`: Set a secure JWT secret (at least 32 characters)
 - `ANON_KEY` and `SERVICE_ROLE_KEY`: JWT tokens for Supabase authentication
 - `DASHBOARD_USERNAME` and `DASHBOARD_PASSWORD`: Credentials for the Supabase dashboard
-- `SMTP_*`: Email configuration must be set to enable email authentication
+- `SMTP_*`: Email configuration must be set to enable email authentication (see [SMTP Service Instructions & Recommendations](#smtp-service-instructions--recommendations))
 - `POOLER_TENANT_ID`: The tenant ID for the Pooler service
 
 ### 3. Start the Services
@@ -57,11 +57,16 @@ Once all services are running, you can access:
 
 - **Tiangong LCA Application**: [http://localhost:8000](http://localhost:8000)
 
-  - Default User
-    - Email: [admin@tiangong.earth](mailto:admin@tiangong.earth)
-    - Password: TianGongAdmin
+  - To log in to your local Tiangong LCA deployment, you must configure the SMTP service in your `.env` file (see [SMTP Service Instructions & Recommendations](#smtp-service-instructions--recommendations)), and use the SMTP service to send registration and authentication emails.
 
 - **Supabase Studio**: [http://localhost:54321](http://localhost:54321)
+  - Log in using the `DASHBOARD_USERNAME` and `DASHBOARD_PASSWORD` you set in the `.env` file.
+
+    ```bash
+    DASHBOARD_USERNAME=supabase
+    DASHBOARD_PASSWORD=this_password_is_insecure_and_should_be_updated
+    ```
+
 - **Postgres**:
   - For session-based connections (equivalent to direct Postgres connections):
 
@@ -162,6 +167,42 @@ cp -r temp_repo/supabase/functions/* supabase/functions/
 rm -rf temp_repo
 ```
 
+### SMTP Service Instructions & Recommendations
+
+The Tiangong LCA application relies on an SMTP service to send registration and authentication emails. You must correctly configure the SMTP-related variables in your `.env` file. Common variables include:
+
+- `SMTP_ADMIN_EMAIL`: SMTP administrator email
+- `SMTP_HOST`: SMTP server address
+- `SMTP_PORT`: SMTP port (usually 465/587/25, depending on provider and encryption)
+- `SMTP_USER`: SMTP login username (usually the email address)
+- `SMTP_PASS`: SMTP login password or authorization code
+- `SMTP_SENDER_NAME`: Sender name
+
+#### Recommended SMTP Services
+
+You may choose from the following common SMTP services:
+
+- WeCom (WeChat Work) Mail (recommended, supports SSL/TLS, suitable for enterprise users) [WeCom Mail SMTP Configuration](https://open.work.weixin.qq.com/help2/pc/19886)
+- QQ Enterprise Mail
+- Alibaba Cloud Mail
+- 163 Enterprise Mail
+- SendGrid, Mailgun, Amazon SES (international third-party services, suitable for large-scale email sending)
+
+#### Example: WeCom Mail SMTP Configuration
+
+For WeCom Mail, your `.env` file should look like:
+
+```env
+SMTP_ADMIN_EMAIL=your_account@yourcompany.com
+SMTP_HOST=smtp.exmail.qq.com
+SMTP_PORT=465
+SMTP_USER=your_account@yourcompany.com
+SMTP_PASS=your_password_or_auth_code
+SMTP_SENDER_NAME=your_account@yourcompany.com
+```
+
+> Note: Some email services (such as QQ, 163) require you to enable "SMTP service" and use an authorization code instead of your login password. Please refer to the official documentation of your email provider for detailed configuration instructions.
+
 ## Maintenance
 
 ### Updating
@@ -218,7 +259,7 @@ If you need to completely reset your environment:
 ./reset.sh
 ```
 
-This will:
+This script will:
 
 1. Stop and remove all containers
 2. Delete all data volumes
