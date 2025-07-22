@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# 数据收集
+# 数据评估
 
-数据收集指南可参考 [用户指引-数据收集说明](user-guide/data-collection-instructions.md)
+数据收集指南可参考 [数据收集-数据收集说明](/docs/data-collection/data-collection-instructions.md)
 
 本案例基于文献  [Comparative environmental assessment of methanol production technologies](https://doi.org/10.1016/j.enconman.2024.118128)，展示如何从文献中提取数据、预处理并在 LCA 平台（TianGong LCA Data Platform）中建立生物质制甲醇的生命周期模型。
 
@@ -42,8 +42,7 @@ sidebar_position: 1
 
 ![替代文字](./img/data-list.png)
 
-**结合流程图与数据内容可知，本案例建模流程包括两个层级：[单元过程构建](/docs/case-introduction/unit-process-construction.md)（三个单一过程）和[模型构建](/docs/case-introduction/model-building.md)（部分终止系统）。**
-
+**结合流程图与数据内容可知，本案例建模流程包括两个层级：[单元过程构建](/docs/data-collection/case-introduction/unit-process-construction.md)（三个单一过程）和[模型构建](/docs/data-collection/case-introduction/model-building.md)
 每个子过程都需分别指定**参考流（Reference flow）**，**生物质加工**：1kg 处理后生物质； **生物质气化**：1kg CO；**甲醇合成**1kg 甲醇。即在每个过程中明确输入输出的参考量值，确保系统正确计算。
 
 整体模型为部分终止系统，选定基准过程为第三个单元过程【甲醇生产】，功能单位设定为 1 kg 甲醇产品（或1 t 均可，建模者可自主选择，但应确保各单元过程保持一致）。
