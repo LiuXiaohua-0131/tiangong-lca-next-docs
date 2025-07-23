@@ -38,19 +38,33 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 
 - **[账户管理](/docs/user-guide/account-profile.md)**: 掌握如何管理个人账户信息、设置安全选项，以及调整平台的使用偏好，确保您的数据和账户安全。
 
-- **[数据使用](/docs/user-guide/data-use.md)**: 探索平台提供的标准化 LCA 数据集，学习如何浏览、引用和管理这些数据，确保数据的一致性和可追溯性。
+- **[按键功能介绍](/docs/user-guide/key-functions-introduction.md)**: 了解平台界面中各个按键的具体功能及其使用方法，方便您高效操作和管理生命周期评价相关数据。
 
-- **[新建数据](/docs/user-guide/create-my-data.md)**: 学习如何创建和管理自己新建的 LCA 数据集，包括模型、过程、流和流属性等，确保数据的准确性和完整性。
+- **[数据新建](/docs/user-guide/create-my-data.md)**: 学习如何创建和管理自己新建的 LCA 数据集，包括模型、过程、流和流属性等，确保数据的准确性和完整性。
+
+- **[数据使用](/docs/user-guide/data-use.md)**: 探索平台提供的标准化 LCA 数据集，学习如何浏览、引用和管理这些数据，确保数据的一致性和可追溯性。
 
 - **[数据搜索](/docs/user-guide/search.md)**: 掌握在平台上搜索和下载 LCA 数据集的基础操作，确保您能够快速获取所需数据。
 
-## 使用案例介绍
+- **[数据审核](/docs/user-guide/data-review.md)**: 了解平台中的数据审核功能，便于规范数据提交流程并提升数据质量与可信度。
+
+## 数据收集
+
+- **[数据收集说明](/docs/data-collection/data-collection-instructions.md)**: 说明数据收集工作的通用原则、来源渠道、操作流程及质量控制要求。
 
 - **[案例介绍](/docs/data-collection/case-introduction/data-evaluation.md)**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
 
 ## 平台部署
 
-- **[建立我的数据](/docs/deploy/local-deploy.md)**：了解如何通过TianGong LCA平台创建自己的数据
+- **[建立我的数据](/docs/deploy/local-deploy.md)**：了解如何通过TianGong LCA平台创建自己的数据。
+
+## 贡献与开发
+
+**项目配置**：提供项目配置教程，涵盖安装依赖、配置文件及自动发布等过程。
+
+## 更新日志
+
+- **[功能更新](/docs/changelog/function-update.md)**：通过更新日志详细记录平台功能的最新进展。
 
 ## 常见问题
 
