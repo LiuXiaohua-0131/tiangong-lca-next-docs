@@ -8,8 +8,6 @@ Demonstrate the usage process of the platform through an example dataset:
 
 Example data source：[Comparative environmental assessment of methanol production technologies: A cradle-to-gate life cycle analysis](https://doi.org/10.1016/j.enconman.2024.118128)
 
-import ReactPlayer from 'react-player';
-
 <div
   style={{
     position: 'relative',
@@ -19,18 +17,21 @@ import ReactPlayer from 'react-player';
     maxWidth: '100%',
   }}
 >
-  <ReactPlayer
-    url="https://www.youtube.com/watch?v=uZSvjVLW0po"
-    controls
-    width="100%"
-    height="100%"
+  <iframe
+    src="//player.bilibili.com/player.html?isOutside=true&aid=114295153168127&bvid=BV1YiRyYbE6h&cid=29278735266&p=1&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
     style={{
       position: 'absolute',
       top: 0,
       left: 0,
-      backgroundColor: '#000',
-      display: 'flex'
+      width: '100%',
+      height: '100%',
     }}
-  />
+  >
+  </iframe>
 </div>
 ---

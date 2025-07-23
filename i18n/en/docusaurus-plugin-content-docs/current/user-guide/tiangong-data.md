@@ -1,68 +1,38 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# Open Data and Commercial Data
+# Data Usage
 
-## Data Comparison
+## Viewing Data
 
-| Data Type | Components | User Permissions | Content |
-|-----------|------------|-----------------|---------|
-| Open Data | Processes, Flows, Flow Properties, Unit Groups, Sources, Contacts, Models | View/Reference | Standardized life cycle assessment datasets reviewed by the platform |
-| Commercial Data | Processes, Flows, Flow Properties, Unit Groups, Sources, Contacts | View | Metadata information (descriptive information) of commercial life cycle assessment datasets |
+1. Expand data panel: Locate the left navigation bar, click "Open Data" or "Commercial Data" to activate the data management interface.
+2. Navigate process directory: Select target entry in the hierarchical list, the page will jump to the corresponding data space.
+3. View data: Click the "View" button on the right side of the data list to see comprehensive data information including [geographic coordinates, timestamp range, system boundary, input/output inventory, industry and product classification](https://www.carbonfootprint.network/docs/cifa-guidelines/lca-database-guideline/chapter-6-appendix#product-classification).
+4. View historical versions: Click "All Versions" in the dataset list to navigate to the version history page where you can view all historical versions of the data.
+5. View version details: Click the "View" button next to a historical version to see its detailed information.
+![](./img/open1.png)
 
->Note:  
-Both types of data **do not support direct modification**. If you need to adjust data information, you must first save the target data to the ["My Data"](./create-my-data.md) module, then make modifications, and then reference it in the ["My Data"](./create-my-data.md) module.
+## Citing Data
 
-## Data Operations
+1. Open selection panel: Click the "Select" button next to the content you want to cite, which will open the information panel.
+2. Switch categories: Use the top navigation bar to select target data categories, the interface will dynamically update.
+3. Select data: Check the target information in the list (selected rows will have purple background), the left status bar will show the selected data.
+4. Save changes: Click the "Save" button at the bottom of the edit page to return to the previous panel.
 
-All operations use Open Data as examples.
+> Note: **Commercial data does not support citation operations**
 
-### Page Description
+![](./img/choose.png)
 
-#### Dataset Page
+## Copying Data
 
-On the main page, click "Open Data" to expand the type list, select the type you want to view or reference, and click to jump to the corresponding page. Users can view complete data information and reference data on this page.
-![](./img/open-24.png)
+1. Expand data panel: Locate the left navigation bar, click "Open Data" or "Commercial Data" to activate the data management interface.
+2. Navigate process directory: Select target entry in the hierarchical list, the page will jump to the corresponding data space.
+3. Open copy page: Click "Copy Data" to open the "Copy Information" page.
+4. Save changes: Click the "Save" button at the bottom of the edit page to return to the previous panel.
+5. Expand data panel: Locate the left navigation bar, click "My Data" to activate the data management interface.
+6. Navigate process directory: Select target entry in the hierarchical list, the page will jump to the corresponding data space where you can see the copied data and perform modifications (see [My Data](./create-my-data.md) for operation guidance).
 
-#### All Versions Page
+![](./img/open2.png)
 
-Click the "All Versions" button in the dataset list to jump to the "All Versions" page. Users can view historical version information or create new versions on this page.
-![](./img/open-25.png)
-
-### Viewing Data
-
-#### Viewing Current Data
-
-Click the "View" button on the right side of the list to view the full-dimensional information of the data. This includes [geographic coordinates](link to relevant website), timestamp range, system boundaries, input and output inventory, etc., covering [agriculture, forestry, animal husbandry, fishery, energy and minerals, equipment manufacturing, transportation, construction and real estate, finance and commerce, information technology, biomedicine, culture, education, tourism, and other industries](link to relevant website).
-
-![](./img/open-23.png)
-
-#### Viewing Historical Data
-
-On the "All Versions" page, you can view all historical versions of the data. Click the "View" button on the right side of the page list to view detailed information about historical data.
-
-![](./img/open-22.png)
-
-### Copying Data
-
-#### Method 1
-
-1. Click "Copy Data" to open the "Copy Information" page, then click "Save" on the popup page.
-2. Find the corresponding data copy in the data platform - "My Data" and modify it there (see [My Data](./create-my-data.md) for specific operation guidelines).
-![](./img/open-19.png)
-![Before modification](./img/open-20.png)
-![](./img/open-21.png)
-
-#### Method 2
-
-1. Click the "Add New Version" button on the "All Versions" page to enter the "Create Version" page, then click "Save".  
-2. Find the corresponding data copy in the data platform - "My Data" and modify it there (see [My Data](./create-my-data.md) for specific operation guidelines).
-![](./img/open-16.png)
-![](./img/open-17.png)
-![](./img/open-18.png)
-
->Note:  
-You must update the version number before saving. The system will verify the uniqueness of the version number, and duplicate version numbers will be rejected.
->
->**The operation process of the Commercial Data module is exactly the same as that of the Open Data module. Please refer directly to the "Data Operations" section for relevant operation guidelines.**
+![](./img/open3.png)
