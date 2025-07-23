@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Unit Process Construction
 
-Reference for platform operations: [Create New Data - Create Process](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/create-my-data.md#create-process)
+Reference for platform operations: [Create New Data - Create Process](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/create-my-data.md#creating-a-process)
 
 ## Process Information
 
@@ -128,7 +128,7 @@ For [Methanol Production] process, new flow required: **Methanol; Biomass-to-met
 
 New methanol flow name determined based on cited literature descriptions.
 
-Reference for creating new flows: [Create New Data - Create Flow](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/create-my-data.md#create-flow)
+Reference for creating new flows: [Create New Data - Create Flow](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/create-my-data.md#creating-flows)
 
 ![Alt text](./img/flow-name.png)
 

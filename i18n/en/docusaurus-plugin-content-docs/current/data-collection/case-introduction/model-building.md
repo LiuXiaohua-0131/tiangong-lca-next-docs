@@ -8,7 +8,7 @@ This section should outline the overall system structure composed of three unit 
 
 Platform modeling reference:
 
-- [Create New Data - Create Model](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/create-my-data.md#create-model)
+- [Create New Data - Create Model](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/create-my-data.md#creating-a-model)
 
 ## Modeling Demonstration
 
