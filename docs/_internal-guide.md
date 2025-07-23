@@ -18,7 +18,7 @@
 - [数据平台介绍](user-guide/data.md)
 - [账号管理](user-guide/account-profile.md)
 - [新建数据](user-guide/create-my-data.md)
-- [开放数据与商业数据](user-guide/tiangong-data.md)
+- [数据使用](user-guide/data-use.md)
 - 数据管理
   - 数据分类、组织和维护的方法
 - 数据导入导出
