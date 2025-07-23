@@ -58,9 +58,9 @@ sidebar_position: 8
 
 将该数据项导出为标准 .json 文件，便于离线备份、本地分析或跨系统对接使用。
 
-![替代文字](img/page-button-2.png)
-
 ⚠️ 导出格式为标准 .json 文件，字段结构与平台兼容。
+
+![替代文字](img/page-button-2.png)
 
 ![替代文字](img/export.png)
 
@@ -80,6 +80,6 @@ sidebar_position: 8
 
 ![替代文字](img/page-button-3.png)
 
-⚠️ 当前版本仅支持导入结构标准、无嵌套错误的 JSON 数据。
+⚠️ 当前版本仅支持导入符合TIDAS结构标准、无嵌套错误的 JSON 文件。
 
 ![替代文字](img/import.png)
