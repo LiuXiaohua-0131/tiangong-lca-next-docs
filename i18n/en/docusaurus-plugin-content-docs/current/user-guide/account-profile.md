@@ -2,18 +2,28 @@
 sidebar_position: 2
 ---
 
-# Account Profile
+# Account Management
 
-The **Account Profile page** is divided into three sections: **Basic Information**, **Change Password**, and **Change Email**.
+Click your username in the top-right corner and select **Account Profile** to view and modify your account information.
+
+![Account Profile](./img/account-profile-1.png)
+
+**Account Profile** contains three sections: **Basic Information**, **Change Password**, and **Change Email**:
 
 ## Basic Information
 
-Here, you can view your current email, role, and nickname. You can also edit your nickname, and any changes will instantly update the display in the upper-right corner, replacing the default email (your registered one).
+This section displays your current email, role, nickname and other details. You can edit your nickname here. After editing, the information displayed in the top-right corner (default is your registered email) will immediately update to your new nickname.
+
+![Basic Information](./img/basic-information.png)
 
 ## Change Password
 
-The system keeps your initial password on file. To change it, simply enter your new password and confirm it.
+The system saves your initial password by default. Simply enter and confirm your new password to complete the change.
+
+![Change Password](./img/change-password.png)
 
 ## Change Email
 
-In this section, your current registered email will be displayed. Just enter your new email address and confirm it to complete the change.
+The system displays your current registered email. Enter and confirm your new email address to complete the modification.
+
+![Change Email](./img/change-email.png)

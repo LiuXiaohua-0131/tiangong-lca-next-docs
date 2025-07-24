@@ -59,7 +59,6 @@ docker compose up -d
 
   - 为登录本地部署的TianGong LCA应用，需在`.env`文件中配置SMTP服务(参考[SMTP 服务说明与推荐](#smtp-服务说明与推荐))，并使用SMTP服务发送邮件进行注册认证。
 
-
 - **Supabase Studio**：[http://localhost:54321](http://localhost:54321)
   - 使用在 `.env` 文件中配置的 `DASHBOARD_USERNAME` 和 `DASHBOARD_PASSWORD` 作为用户名和密码 登录。
 
@@ -203,7 +202,6 @@ SMTP_SENDER_NAME=your_account@yourcompany.com
 ```
 
 > 注意：部分邮箱服务（如 QQ、163）需开启“SMTP服务”并使用授权码而非登录密码。请参考对应邮箱服务的官方文档获取详细配置方法。
-
 
 ## 维护
 

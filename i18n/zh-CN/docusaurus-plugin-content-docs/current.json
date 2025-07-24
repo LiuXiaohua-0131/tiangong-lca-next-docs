@@ -46,5 +46,37 @@
   "sidebar.tutorialSidebar.category.Case Introduction.link.generated-index.description": {
     "message": "案例介绍",
     "description": "The generated-index page description for category Case Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Changelog": {
+    "message": "更新日志",
+    "description": "The label for category changelog in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Changelog.link.generated-index.description": {
+    "message": "记录平台的功能更新、问题修复、性能优化与数据进展。",
+    "description": "The generated-index page description for category Changelog in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data review": {
+    "message": "数据审核",
+    "description": "The label for category data review in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data review.link.generated-index.description": {
+    "message": "本节将帮助您了解平台中的数据审核功能，便于规范数据提交流程并提升数据质量与可信度。",
+    "description": "The generated-index page description for Data review in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.team function": {
+    "message": "团队功能",
+    "description": "The label for category team function in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.team function.link.generated-index.description": {
+    "message": "本节将帮助您了解平台中的团队功能，便于协同管理和共享生命周期评价相关数据。",
+    "description": "The generated-index page description for category team function in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Collection": {
+    "message": "数据收集",
+    "description": "The label for category Data Collection in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Collection.link.generated-index.description": {
+    "message": "本节包括数据收集的基本指南，以及一个案例示范，用以说明数据收集的操作流程与注意事项。",
+    "description": "The generated-index page description for category Data Collection in sidebar tutorialSidebar"
   }
 }

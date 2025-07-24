@@ -46,7 +46,7 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 
 ## 使用案例介绍
 
-- **[案例介绍]**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
+- **[案例介绍](/docs/data-collection/case-introduction/data-evaluation.md)**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
 
 ## 平台部署
 

@@ -2,44 +2,65 @@
 sidebar_position: 1
 ---
 
-# Data
+# TianGong LCA Data Platform Overview
 
-The **My Data** module is composed of six sections: Unit Process, Flow, Flow Property, Unit, Data Source, and Contact, allowing users to build data as needed.
+This introduction will help you understand the core functionality and data modules of the TianGong LCA Data Platform, and how to use these features to manage and share lifecycle assessment data.
 
-## Unit Process
+> The TianGong LCA Platform online version is free for everyone to use. If you haven't registered an account yet, please see [First Login and Registration](../quick-start/first-login.md). To learn how to get started quickly, see [Demonstrations](../quick-start/demonstrations.md).
 
-Users can create a new unit process by clicking the "+" button on the page.
+The TianGong LCA Data Platform provides four core data modules for viewing, managing and analyzing lifecycle assessment data. All modules contain models, processes, flows, flow properties, units, sources and contact information, but with different access permissions.
 
-In the Input/Output Flow section, users can add related input/output flows by clicking the "+" button.
+## Open Data
 
-## Flow
+The **Open Data** module provides standardized LCA datasets reviewed by the platform, available for viewing and referencing by all users. Key features:
 
-Users can create a new flow by clicking the "+" button.
+- Data sources: Publicly available data sources
+- Permissions: View and use data only
+- Data publishing: User-created datasets can be published here after review
+- Applications: Supports searching, filtering and referencing for research and analysis
 
-After successfully creating a new flow, a "Model" can be built on the right side.
+## Commercial Data
 
-In the model-building page, users can create and edit models by clicking the "+" button.
+The **Commercial Data** module provides metadata for commercial LCA datasets. Key features:
 
-In the model editing page, users can add nodes by clicking the "+", adjust directions by dragging the edges of the node boxes, and add basic model information by clicking the "i" on the right.
+- Content: Only displays dataset metadata (descriptive information)
+- Permissions: View metadata only
+- Access: Users can contact data providers for complete datasets
+- Publishing: Commercial users can publish reviewed metadata through the platform
 
-Click the directional arrow and select "Exchange Relationship" to add exchange relationships by choosing the source output flow and target input flow.
+> Note:  
+Both Open Data and Commercial Data **cannot be modified directly**. To adjust data, first copy target data to [My Data](./create-my-data.md) module, make modifications there, then reference from [My Data](./create-my-data.md).
 
-## Flow Property
+## My Data
 
-Users can create new flow properties by clicking the "+" button.
+The **My Data** module is the core area for data creation and management, with full operational permissions. Features include:
 
-## Unit
+- **Models**: Visual construction of product LCA models
+- **Processes**: Create and manage unit processes, save product model results
+- **Flows**: Create and edit product flows, waste flows
+- **Flow Properties**: Define physical, chemical, economic properties and composition
+- **Units**: Create and manage unit groups (physical, monetary, energy units etc.)
+- **Sources**: Manage data references and image files (literature, reports etc.)
+- **Contacts**: Maintain personal and team contact information
 
-Users can create new units by clicking the "+" button.
+For detailed data creation procedures, see [Creating New Data](./create-my-data.md).
 
-```bash
-The Unit module in TianGong Data is constructed according to international standards and can be directly referenced by users.
-```
+Note: Creating new flow properties and units is not recommended. Use platform-provided standard properties and units to ensure proper LCIA calculations.
 
-## Data Source
+## Team Data
 
-Users can create new data sources by clicking the "+" button and add electronic documents related to data files.
+The **Team Data** module manages and shares collaborative team data. Key features:
 
-## Contact
+- Permissions: View only
+- Scope: View all data from joined teams
+- Management: Team admins can maintain data in "My Data" module
+- Collaboration: Supports data sharing and referencing among team members
 
-Users can create new contacts by clicking the "+" button, allowing them to input personal and team information.
+## Data Operation Permissions
+
+| Module | View Full Data | View Metadata | Create | Edit | Delete | Copy |
+|--------|----------------|---------------|--------|------|--------|------|
+| Open Data |✅|||||✅|
+| Commercial Data ||✅||||✅|
+| My Data |✅|✅|✅|✅|✅|✅|
+| Team Data |✅|||||✅|
