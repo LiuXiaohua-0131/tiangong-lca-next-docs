@@ -1,24 +1,30 @@
 ---
-sidebar_position: 8
+sidebar_position: 3
 ---
 
 # Key Functions Introduction
 
-This section helps you understand the specific functions and usage of various buttons in the platform interface, enabling efficient operation and management of lifecycle assessment data.
+This section will help you understand the specific functions and usage of various buttons in the platform interface, enabling efficient operation and management of life cycle assessment data.
 
-## Main Interface Top-Right Buttons
+## Main Interface Top-Right Function Buttons
 
 The top-right corner of the main interface contains the following function buttons:
 
-### ① Day/Night Mode Toggle
+### ① Light/Dark Mode Toggle
 
-### ② Language Switch
+Switch between light and dark modes to accommodate different lighting environments and user preferences.
+
+### ② Language Selection
+
+Choose your preferred language for platform display.
 
 ### ③ Platform Documentation Access
 
-Click the question mark icon to navigate to the TianGong platform documentation page, where users can find detailed usage instructions and FAQs.
+Click the question mark icon to access Tiangong platform documentation, where you can find detailed usage instructions and FAQs.
 
 ### ④ Platform Notifications
+
+Provides real-time message alerts to keep users informed of platform notifications.
 
 ![Alt text](img/main-page-buttons.png)
 
@@ -26,39 +32,43 @@ Click the question mark icon to navigate to the TianGong platform documentation 
 
 ### ⑤ Page Refresh
 
-### ⑥ Display Density Adjustment
+Refresh the page to view the latest data and information.
 
-Supports three density modes: Comfortable, Medium, and Compact to accommodate different screens and preferences. Default is Medium.
+### ⑥ Data Display Density Adjustment
 
-### ⑦ Column Settings - Select Displayed Columns
+Supports three density modes: Comfortable, Medium, and Compact to accommodate different screens and preferences (default is Medium).
 
-Filterable columns include: ID, Name, Category, Version, Update Time, Actions. Click Reset to restore default settings.
+### ⑦ Column Settings - Select Displayed Data Columns
+
+Filterable columns include: ID, Name, Category, Version, Update Time, and Actions. Click Reset to restore default settings.
 
 ### ⑧ Fullscreen Mode
 
-Click to enter fullscreen view: hides left navigation, collapses search bar, and maximizes data table area.
+Click to enter fullscreen data viewing mode: hides left navigation bar, collapses top search box, and maximizes data table area.
 
 ![Alt text](img/page-button-1.png)
 
-Fullscreen mode with filterable columns:
+Fullscreen mode with filterable columns displayed:
 
 ![Alt text](img/filter-column-data.png)
 
 ### ⑨ View All Versions
 
+View all historical versions of the document to track updates and changes.
+
 ### ⑩ View Data Details (Read-only)
 
-View complete data content and structure without editing capability.
+View complete data content and structure (editing disabled).
 
-### ⑪ Duplicate Function
+### ⑪ Copy Function
 
-Quickly create a copy of the data item for rapid modeling or modification based on existing data.
+Quickly create a duplicate of the data item for modeling or modification based on existing data.
 
 ### ⑫ Data Export
 
 Export the data item as a standard .json file for offline backup, local analysis, or cross-system integration.
 
-⚠️ Export format is standard .json file with platform-compatible structure.
+⚠️ Exported format is standard .json file with platform-compatible field structure.
 
 ![Alt text](img/page-button-2.png)
 
@@ -66,17 +76,23 @@ Export the data item as a standard .json file for offline backup, local analysis
 
 ## My Data Interface Buttons
 
-Excluding buttons with identical functions, below are unique features in the My Data interface.
+(Omitting descriptions of buttons identical to those in other interfaces) The following are unique to the **My Data** interface:
 
 ### ⑬ Add New Data Item
 
+Create a new data record. Learn more at [Create My Data](/docs/user-guide/create-my-data.md).
+
 ### ⑭ Data Import
 
-Supports standardized .json files. The system automatically parses content and matches fields.
+Supports importing standardized .json files. The system automatically parses file contents and matches fields.
 
 ### ⑮ Edit Information
 
+Edit detailed information of the current data item to update its content.
+
 ### ⑯ Contribute to Team
+
+Share the current data item with your team, allowing other members to view and use it.
 
 ![Alt text](img/page-button-3.png)
 
