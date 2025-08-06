@@ -68,7 +68,7 @@ npx @modelcontextprotocol/inspector
 6. 授权配置访问：点击"Authorization"处进行MCP授权配置。  
 7. 配置窗口打开：点击后弹出MCP详细配置窗口。  
 8. 基本信息填写：在配置窗口中填写必要的连接信息。  
-9. 配置信息保存：完成填写后点击"保存"按钮。  
+9. 配置信息保存：完成填写后点"保存"按钮。  
 10. 工作流构建：在Dify中构建工作流或智能体调用MCP。  
 >1. 智能体、工作流的创建可参照[官方文档](https://docs.dify.ai/zh-hans/guides/application-orchestrate/creating-an-application)。
 >2. MCP应用请参照[官方文档](https://docs.dify.ai/zh-hans/guides/tools/mcp)
