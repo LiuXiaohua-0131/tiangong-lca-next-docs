@@ -41,7 +41,7 @@ npx @modelcontextprotocol/inspector
 ```
 
 1. 传输类型配置：在Inspector页面点击下拉框，选择"Streamable HTTP"。
-2. URL地址配置：在url栏填写MCP Server端口地址：<https://lcamcp.tiangong.earth/mcp。>
+2. URL地址配置：在url栏填写MCP Server端口地址：[https://lcamcp.tiangong.earth/mcp](https://lcamcp.tiangong.earth/mcp)。
 3. 令牌配置：将上述流程获取的Access token或API Key填入相应的token字段。
 4. 服务器连接：点击"connect"按钮进行连接。  
 **页面连接成功，下面以过程搜索为例展示应用方法**  
@@ -63,7 +63,7 @@ npx @modelcontextprotocol/inspector
 
 4. 服务器信息填写：配置远程MCP Server的基本信息（Headers处的XXX为获得的Access token或API Key）。
     >Type:Streamable HTTP  
-    >URL:<https://lcamcp.tiangong.earth/mcp>  
+    >URL:[https://lcamcp.tiangong.earth/mcp](https://lcamcp.tiangong.earth/mcp)  
     >Headers:  
     >Content-Type=application/json  
     >Authorization=Bearer XXX  

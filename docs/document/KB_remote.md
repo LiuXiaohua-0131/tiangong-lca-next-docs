@@ -14,17 +14,17 @@ sidebar_position: 2
 
 ### Inspector
 
-**MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Inspector页面**  
+#### MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Inspector页面
 
 ```bash
 npx @modelcontextprotocol/inspector
 ```
 
 1. Transport Type配置：在Inspector页面，点击下拉框，选择Streamable HTTP。  
-2. url配置：填写MCP Server端口<https://mcp.tiangong.earth/mcp。>  
+2. url配置：填写MCP Server端口 [https://mcp.tiangong.earth/mcp](https://mcp.tiangong.earth/mcp)
 3. 令牌配置：将上述流程获取的API Key填入相应的token字段。
 4. Server连接：点击connect进行连接  
-**页面连接成功，下面以检索为例展示应用方法**  
+        **页面连接成功**，下面以检索为例展示应用方法
 5. 操作选择：在页面上边栏点击Tools按键。  
 6. 列表展开：点击List Tools按键，出现下拉列表。  
 7. 工具选择：点击列表中的Search_Sci_Tool按键。  
@@ -32,7 +32,7 @@ npx @modelcontextprotocol/inspector
 9. 工具运行：点击Run Tool运行工具，显示输出。  
 
     ![](img/19.png)
-    **搜索结果如图**  
+    搜索结果如图  
 
     ![](img/20.png)
 
@@ -47,7 +47,7 @@ npx @modelcontextprotocol/inspector
 4. 信息填写：配置本地MCP Server的基本信息（Headers处的XXX为获得到的API Key）。
 
     >Type:Streamable HTTP  
-    >URL:><https://mcp.tiangong.earth/mcp>  
+    >URL:[https://mcp.tiangong.earth/mcp](https://mcp.tiangong.earth/mcp)  
     >headers:  
     >Content-Type=application/json  
     >Authorization=Bearer XXX

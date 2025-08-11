@@ -21,7 +21,7 @@ npx @modelcontextprotocol/inspector
 ```
 
 1. Transport Type Configuration: On the Inspector page, click the dropdown box and select Streamable HTTP.  
-2. URL Configuration: Fill in the MCP Server port <https://mcp.tiangong.earth/mcp>.  
+2. URL Configuration: Fill in the MCP Server port [https://mcp.tiangong.earth/mcp](https://mcp.tiangong.earth/mcp).  
 3. Token Configuration: Enter the API Key obtained from the above process into the corresponding token field.
 4. Server Connection: Click connect to establish connection  
 **After successful page connection, the following demonstrates the application method using search as an example**  
@@ -47,7 +47,7 @@ npx @modelcontextprotocol/inspector
 4. Information Filling: Configure basic information for the local MCP Server (XXX in Headers is the obtained API Key).
 
     >Type: Streamable HTTP  
-    >URL: <https://mcp.tiangong.earth/mcp>  
+    >URL: [https://mcp.tiangong.earth/mcp](https://mcp.tiangong.earth/mcp)  
     >Headers:  
     >Content-Type=application/json  
     >Authorization=Bearer XXX

@@ -12,7 +12,7 @@ sidebar_position: 3
 
 ### 文件导入
 
-**点击软件图标，进入下载好的openLCA界面，开始文件导入**  
+#### 点击软件图标，进入下载好的openLCA界面，开始文件导入
 
 1. 菜单展开：点击左上角“File”菜单，展开下拉列表。  
 2. 选择导入：在菜单中，点击“Import”选项，准备导入数据文件。  
@@ -81,7 +81,7 @@ npx @modelcontextprotocol/inspector
 ```
 
 1. Transport Type配置：在Inspector页面，点击下拉框，选择Streamable HTTP。  
-2. url配置：填写MCP Server端口<http://localhost:9278/mcp。>  
+2. url配置：填写MCP Server端口 [http://localhost:9278/mcp](http://localhost:9278/mcp)。
 3. Server连接：点击connect进行连接
 
 **页面连接成功，下面以环境影响评估为例展示应用方法**  
@@ -92,7 +92,7 @@ npx @modelcontextprotocol/inspector
 8. 工具运行：点击Run Tool运行工具，显示输出。  
 
 ![](img/4.png)
-**计算结果如图**  
+计算结果如图  
 
 ![](img/5.png)
 
@@ -108,7 +108,7 @@ npx @modelcontextprotocol/inspector
 
 4. 信息填写：配置本地MCP Server的基本信息。  
     >Type: Streamable HTTP  
-    >URL: <http://localhost:9278/mcp>
+    >URL: [http://localhost:9278/mcp](http://localhost:9278/mcp)
 
 5. 保存信息：点击"Save"键保存设置。
 6. 启动MCP连接：点击打开MCP Server。

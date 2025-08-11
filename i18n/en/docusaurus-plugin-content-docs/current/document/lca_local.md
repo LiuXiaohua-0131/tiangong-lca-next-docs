@@ -45,7 +45,7 @@ Depending on your system type, download nvm to your local machine from the corre
 
 ### Node.js Package
 
-**Open the corresponding terminal based on your computer's system (Windows/Linux/Mac) and enter the appropriate commands following the instructions below**  
+#### Open the corresponding terminal based on your computer's system (Windows/Linux/Mac) and enter the appropriate commands following the instructions below
 
 1. Node.js Download/Activation  
 
@@ -74,14 +74,14 @@ npx -p @tiangong-lca/mcp-server tiangong-lca-mcp-http-local
 
 ### Inspector
 
-**MCP Inspector Launch: Enter the following command in the terminal, which will automatically redirect to the Inspector page**  
+### MCP Inspector Launch: Enter the following command in the terminal, which will automatically redirect to the Inspector page
 
 ```bash
 npx @modelcontextprotocol/inspector
 ```
 
 1. Transport Type Configuration: On the Inspector page, click the dropdown box and select Streamable HTTP.  
-2. URL Configuration: Fill in the MCP Server port <http://localhost:9278/mcp>.  
+2. URL Configuration: Fill in the MCP Server port [http://localhost:9278/mcp](http://localhost:9278/mcp).  
 3. Server Connection: Click connect to establish connection
 
 **After successful page connection, the following demonstrates the application method using environmental impact assessment as an example**  
@@ -109,7 +109,7 @@ npx @modelcontextprotocol/inspector
 4. Information Filling: Configure basic information for the local MCP Server.
 
     >Type: Streamable HTTP  
-    >URL: <http://localhost:9278/mcp>
+    >URL: [http://localhost:9278/mcp](http://localhost:9278/mcp)
 
 5. Save Information: Click the "Save" button to save settings.
 6. Start MCP Connection: Click to open the MCP Server.
