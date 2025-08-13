@@ -48,17 +48,17 @@ sidebar_position: 7
 
 1. **所有者和管理员邀请成员**：  
 
-在团队管理页，团队所有者和管理员可通过搜索用户名邀请新成员。
+    在团队管理页，团队所有者和管理员可通过搜索用户名邀请新成员。
 
-![替代文字](img/add-member.png)
+    ![替代文字](img/add-member.png)
 
-![替代文字](img/team-member-email.png)
+    ![替代文字](img/team-member-email.png)
 
 2. **成员接收邀请**：  
 
-被邀请成员将在平台右上角消息图标看到红点提示，点击查看消息并同意邀请后，即可加入团队。
+    被邀请成员将在平台右上角消息图标看到红点提示，点击查看消息并同意邀请后，即可加入团队。
 
-![替代文字](img/team-invitation.png)
+    ![替代文字](img/team-invitation.png)
 
 3. **加入成功**：  
 

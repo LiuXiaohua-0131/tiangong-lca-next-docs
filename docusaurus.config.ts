@@ -106,11 +106,11 @@ const config: Config = {
           items: [
              {
               label: 'Carbon Footprint Industry Alliance',
-              href: 'https://www.carbonfootprint.network/',
+              href: 'https://www.carbonfootprint.network',
             },
             {
               label: 'TianGong Think Tank',
-              href: 'http://www.tsinghua-riet.com/page/aicenter2/index.php/',
+              href: 'http://www.tsinghua-riet.com/page/aicenter2/index.php',
             },
           ],
         },

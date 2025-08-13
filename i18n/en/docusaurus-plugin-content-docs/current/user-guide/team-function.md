@@ -45,13 +45,13 @@ Standard users can search for teams via "Join Team" and contact owners using pro
 1. **Owner/Admin Invitations**:
    Team owners and administrators can invite new members via username search.
 
-![Add Member Interface](img/add-member.png)
-![Member Email Display](img/team-member-email.png)
+   ![Add Member Interface](img/add-member.png)
+   ![Member Email Display](img/team-member-email.png)
 
 2. **Accepting Invitations**:
    Invited members receive notifications (red dot indicator) and must accept invitations to join.
 
-![Invitation Notification](img/team-invitation.png)
+   ![Invitation Notification](img/team-invitation.png)
 
 3. **Successful Joining**:
    Members gain access to team data and can contribute to collaborative work.
