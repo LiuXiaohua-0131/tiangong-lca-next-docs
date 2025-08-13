@@ -92,25 +92,25 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'http://linkedin.com/company/tiangonglca',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'TianGong Initiative',
+              href: 'https://www.tiangong.earth/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Technical Support',
           items: [
+             {
+              label: 'Carbon Footprint Industry Alliance',
+              href: 'https://www.carbonfootprint.network/',
+            },
             {
-              label: 'GitHub',
-              href: 'https://github.com/linancn/tiangong-lca-next',
+              label: 'TianGong Think Tank',
+              href: 'http://www.tsinghua-riet.com/page/aicenter2/index.php/',
             },
           ],
         },
