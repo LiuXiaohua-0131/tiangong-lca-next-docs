@@ -80,7 +80,7 @@ Export the data item as a standard .json file for offline backup, local analysis
 
 ### ⑬ Add New Data Item
 
-Create a new data record. Learn more at [Create My Data](/docs/user-guide/create-my-data.md).
+Create a new data record. Learn more at [Create My Data](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/create-my-data.md).
 
 ### ⑭ Data Import
 
