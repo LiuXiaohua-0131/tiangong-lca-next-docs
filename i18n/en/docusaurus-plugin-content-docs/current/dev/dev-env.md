@@ -7,10 +7,10 @@ sidebar_position: 1
 ## Installing Dependencies
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 nvm install
-nvm alias default 20
+nvm alias default 22
 nvm use
 
 npm install
