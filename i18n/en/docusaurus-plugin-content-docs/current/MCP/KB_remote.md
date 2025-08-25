@@ -63,10 +63,6 @@ At the [Cherry Studio official website](https://www.cherry-ai.com/download), fol
 
     ![](img/23.png)  
 
-    <video src="img/3.mp4" controls style={{width: '100%', maxWidth: '10000px'}}>
-      Your browser does not support video playback.
-    </video>
-
 ### Dify
 
 1. Tools Page Access: Click the "Tools" option in the top toolbar to navigate to the tool management page.  
@@ -82,7 +78,7 @@ At the [Cherry Studio official website](https://www.cherry-ai.com/download), fol
 
     ```JSON
     {
-        "tiangong_lca_remote": {
+        "tiangong_kb_remote": {
         "transport": "streamable_http",
         "url": "https://mcp.tiangong.earth/mcp  ",
         "headers": {

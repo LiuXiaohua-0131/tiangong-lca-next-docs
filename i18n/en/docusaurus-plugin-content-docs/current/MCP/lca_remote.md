@@ -84,10 +84,6 @@ At the [Cherry Studio official website](https://www.cherry-ai.com/download), fol
 
     ![](img/15.png)
 
-    <video src="img/2.mp4" controls style={{width: '100%', maxWidth: '10000px'}}>
-      Your browser does not support video playback.
-    </video>
-
 ### Dify
 
 1. Tools Page Access: Click the "Tools" option in the top toolbar to navigate to the tool management page.  
