@@ -81,10 +81,6 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
 
     ![](img/15.png)  
 
-    <video src="img/2.mp4" controls style={{width: '100%', maxWidth: '10000px'}}>
-      Your browser does not support video playback.
-    </video>
-
 ### Dify
 
 1. 工具页面访问：点击上边栏"Tools"选项，跳转至工具管理页面。  

@@ -62,10 +62,6 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
 9. MCP选择：选择需要的MCP。
 
     ![](img/23.png)
-  
-    <video src="img/3.mp4" controls style={{width: '100%', maxWidth: '10000px'}}>
-      Your browser does not support video playback.
-    </video>
 
 ### Dify  
 
@@ -83,9 +79,9 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
 
     ```JSON
     {
-        "tiangong_lca_remote": {
+        "tiangong_kb_remote": {
         "transport": "streamable_http",
-        "url": "http://mcp.tiangong.earth/mcp",
+        "url": "https://mcp.tiangong.earth/mcp",
         "headers": {
             "Accept": "application/json,text/event-stream",
             "Authorization": "Bearer XXX"

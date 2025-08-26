@@ -88,7 +88,7 @@ npx @modelcontextprotocol/inspector
 4. Operation Selection: Click the Tools button on the top toolbar of the page.  
 5. List Expansion: Click the List Tools button to display the dropdown list.  
 6. Tool Selection: Click the OpenLCA_Impact_Assessment_Tool button.  
-7. UUID Configuration: Find the UUID corresponding to systemProcess and impactMethod in openLCA and enter them in the corresponding boxes.  
+7. UUID Configuration: Find the UUID corresponding to productSystem and impactMethod in openLCA and enter them in the corresponding boxes.  
 8. Tool Execution: Click Run Tool to execute the tool and display output.  
 
     ![](img/4.png)
@@ -118,10 +118,6 @@ At the [Cherry Studio official website](https://www.cherry-ai.com/download), fol
 
     ![](img/9.png)  
 
-    <video src="img/1.mp4" controls style={{width: '100%', maxWidth: '10000px'}}>
-      Your browser does not support video playback.
-    </video>
-
 ### Dify
 
 Based on the [official Dify documentation](https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/readme), deploy it locally. After the deployment is complete and the project is running, perform the following steps.
@@ -140,7 +136,7 @@ Based on the [official Dify documentation](https://docs.dify.ai/zh-hans/getting-
 
     ```JSON
     {
-      "tiangong_lca_remote": {
+      "tiangong_lca_local": {
         "transport": "streamable_http",
         "url": "http://host.docker.internal:9278/mcp  ",
         "headers": {

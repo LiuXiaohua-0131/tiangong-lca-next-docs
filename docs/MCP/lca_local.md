@@ -88,7 +88,7 @@ npx @modelcontextprotocol/inspector
 4. 操作选择：在页面上边栏点击Tools按键。  
 5. 列表展开：点击List Tools按键，出现下拉列表。  
 6. 工具选择：点击OpenLCA_Impact_Assessment_Tool按键。  
-7. UUID配置：在openLCA里找到systemProcess与impactMethod对应的UUID，输入对应框中。  
+7. UUID配置：在openLCA里找到productSystem与impactMethod对应的UUID，输入对应框中。  
 8. 工具运行：点击Run Tool运行工具，显示输出。  
 
     ![](img/4.png)
@@ -118,10 +118,6 @@ npx @modelcontextprotocol/inspector
 
     ![](img/9.png)  
 
-    <video src="img/1.mp4" controls style={{width: '100%', maxWidth: '10000px'}}>
-      Your browser does not support video playback.
-    </video>
-
 ### Dify
 
 依照dify[官方文档](https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/readme)，在本地进行部署，部署完成后启动项目，进行如下操作。  
@@ -140,7 +136,7 @@ npx @modelcontextprotocol/inspector
 
     ```JSON
     {
-        "tiangong_lca_remote": {
+        "tiangong_lca_local": {
         "transport": "streamable_http",
         "url": "http://host.docker.internal:9278/mcp  ",
         "headers": {
