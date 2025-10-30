@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Feature Updates
 
+## 2025-07-21
+
+### New Feature: LCIA calculation available (see [/i18n/en/docusaurus-plugin-content-docs/current/user-guide/lcia.md](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/lcia.md)).
+
 ## 2025-06-17
 
 ### New Feature: [Review Status Filtering: All/Unreviewed/In Review/Reviewed](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/data-review.md#review-status-filtering-allunreviewedin-reviewreviewed)
