@@ -102,7 +102,7 @@ sidebar_position: 7
 
 - **移除成员**：将成员移出团队。
 
-如需详细了解各个按钮功能，请参考：[团队按键说明]
+如需详细了解各个按钮功能，请参考：[团队按键说明](/docs/user-guide/key-functions-introduction.md#团队数据管理界面按键说明)
 
 ---
 

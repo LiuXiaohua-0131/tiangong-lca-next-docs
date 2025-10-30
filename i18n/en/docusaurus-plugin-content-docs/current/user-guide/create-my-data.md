@@ -87,6 +87,8 @@ Processes and models are core components of lifecycle assessment. Users can crea
 
 ![](./img/model6.png)
 
+> Note: LCIA calculated at the process level includes only the process's elementary flows and does not account for impacts from products or waste streams produced by the process. To include product/waste impacts across linked processes, run LCIA at the model level (assemble the related processes into a model and run the assessment there).
+
 >Note:  
 Models composed of multiple unit processes can be treated as new comprehensive processes. After creation, models can be used as processes and called in "My Data" > "Processes".
 
