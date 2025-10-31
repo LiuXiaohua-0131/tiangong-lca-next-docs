@@ -1,12 +1,12 @@
 ---
 sidebar_position: 4
 title: Create My Data
-description: Follow the Prepare → Build → Quality-check flow to create processes, models, flows, and supporting references in “My Data”.
+description: Follow the Prepare → Build → Data validation flow to create processes, models, flows, and supporting references in “My Data”.
 ---
 
 # Create My Data
 
-Within “My Data” you control the full lifecycle of TianGong LCA datasets. This guide breaks the work into three stages—**Preparation → Build datasets → Quality check & publish**—to minimise rework and keep references consistent.
+Within “My Data” you control the full lifecycle of TianGong LCA datasets. This guide breaks the work into three stages—**Preparation → Build datasets → Data validation & publish**—to minimise rework and keep references consistent.
 
 ## Before you start
 
@@ -107,7 +107,7 @@ Custom unit groups or flow properties can introduce conversion issues or LCIA fa
 3. Align the property category (technical / chemical / economic / other) with a compatible unit group.  
 4. For updated datasets, link the previous version in “Management information”.
 
-## Quality check & publish
+## Data validation & publish
 
 1. **Save drafts** frequently to avoid losing progress.  
 2. **Run `Data check`** on the process or model editor to validate required fields and references.  
