@@ -69,6 +69,8 @@ Importing expects well-formed JSON with no structural errors:
 
 The top-right message icon surfaces pending invitations, review decisions, and other alerts. Check it regularly—especially at the start of a work session—to avoid missing required actions.
 
+![Notification](img/notification.png)
+
 ### Team management actions
 
 Within “My Team”, authorised users can:
