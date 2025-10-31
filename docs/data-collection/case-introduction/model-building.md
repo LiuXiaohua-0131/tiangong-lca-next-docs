@@ -8,7 +8,7 @@ sidebar_position: 3
 
 平台建模操作参考
 
-- [新建数据-新建模型](user-guide/create-my-data.md#新建模型)
+- [新建数据-新建模型](/user-guide/create-my-data#create-model)
 
 ## 建模展示
 

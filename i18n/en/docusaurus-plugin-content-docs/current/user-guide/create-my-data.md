@@ -26,7 +26,7 @@ To prevent data loss from client exceptions, we recommend first filling in the v
 
 Processes and models are core components of lifecycle assessment. Users can create and manage processes and models in the "My Data" module. Creating a process refers to creating a "unit process", while "partial termination systems" and "LCI results" exist as models. Models can be used as processes and will appear in both "Models" and "Processes" modules after saving. Below are detailed steps:
 
-### Creating a Process
+### Creating a Process {#create-process}
 
 1. Open data panel: Locate and click "My Data" in the left navigation bar to activate the data management interface.  
 2. Navigate to process directory: Select "Processes" in the hierarchical list to jump to "My Data/Processes".  
@@ -53,7 +53,7 @@ Processes and models are core components of lifecycle assessment. Users can crea
 
  ![](./img/process4.png)
 
-### Creating a Model
+### Creating a Model {#create-model}
 
 1. Open data panel: Locate and click "My Data" in the left navigation bar.  
 2. Navigate to model directory: Select "Models" in the hierarchical list to jump to "My Data/Product Models".  
@@ -92,7 +92,7 @@ Processes and models are core components of lifecycle assessment. Users can crea
 >Note:  
 Models composed of multiple unit processes can be treated as new comprehensive processes. After creation, models can be used as processes and called in "My Data" > "Processes".
 
-## Creating Flows
+## Creating Flows {#create-flow}
 
 1. Open data panel: Locate and click "My Data" in the left navigation bar.  
 2. Navigate to flow directory: Select "Flows" in the hierarchical list to jump to "My Data/Flows".  
@@ -113,7 +113,7 @@ Models composed of multiple unit processes can be treated as new comprehensive p
 
 ![](./img/flow3.png)
 
-## Creating Contacts
+## Creating Contacts {#create-contact}
 
 After creating the object, follow prompts to click through and fill in "Contact Information" and "Management Information".
 
@@ -122,7 +122,7 @@ After creating the object, follow prompts to click through and fill in "Contact 
 1. If selecting "Individual" in "Contact Information" > "Category", and the individual belongs to an organization, you can click "Select" in the "Belongs To" section to choose the affiliated team from the data group to establish the relationship.  
 2. For updated data, select the previous version in "Management Information" > "Previous Dataset Version".
 
-## Creating Sources
+## Creating Sources {#create-source}
 
 After creating the object, follow prompts to click through and fill in "Source Information" and "Management Information".
 

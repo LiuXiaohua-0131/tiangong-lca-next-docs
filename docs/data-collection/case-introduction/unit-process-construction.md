@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # 单元过程构建
 
-新建单元过程的平台操作流程参考[新建数据-新建过程](user-guide/create-my-data.md#新建过程)
+新建单元过程的平台操作流程参考[新建数据-新建过程](/user-guide/create-my-data#create-process)
 
 ## 过程信息
 
@@ -129,7 +129,7 @@ CN（中国）
 
 新增的甲醇流名称依据所引用文献中的描述进行确定。
 
-新建流的操作流程见[新建数据-新建流](user-guide/create-my-data.md#新建流)
+新建流的操作流程见[新建数据-新建流](/user-guide/create-my-data#create-flow)
 
 ![替代文字](./img/flow-name.png)
 

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # 简介
 
-TianGong LCA 是一个基于 [**TIDAS**](https://tidas.tiangong.earth/)（**TI**angong **DA**ta **S**ystem）数据系统的开源LCA数据平台。该平台提供灵活的使用方式，用户既可选择[**在线系统**](https://lca.tiangong.earth/)，也可在本地进行[**私有化部署**](/docs/deploy/local-deploy.md)。TianGong LCA平台支持多团队多用户协作，团队成员可以共同执行复杂的LCA数据制备项目。
+TianGong LCA 是一个基于 [**TIDAS**](https://tidas.tiangong.earth/)（**TI**angong **DA**ta **S**ystem）数据系统的开源LCA数据平台。该平台提供灵活的使用方式，用户既可选择[**在线系统**](https://lca.tiangong.earth/)，也可在本地进行[**私有化部署**](/deploy/local-deploy)。TianGong LCA平台支持多团队多用户协作，团队成员可以共同执行复杂的LCA数据制备项目。
 
 TianGong LCA 平台支持以下关键功能：
 
@@ -26,45 +26,48 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
 
 **快速开始**模块旨在帮助您迅速上手 TianGong LCA 平台，完成关键的初始操作：
 
-- **[注册与登录](/docs/quick-start/first-login.md)**: 学习如何创建账户、登录平台，并了解主界面的基本布局，快速定位所需功能。
+- **[注册与登录](/quick-start/first-login)**: 学习如何创建账户、登录平台，并了解主界面的基本布局，快速定位所需功能。
 
-- **[操作演示](/docs/quick-start/demonstrations.md)**: 通过示例操作，了解如何执行基础数据操作，例如简单的数据集下载或数据浏览。这将帮助您熟悉平台的核心功能。
+- **[操作演示](/quick-start/demonstrations)**: 通过示例操作，了解如何执行基础数据操作，例如简单的数据集下载或数据浏览。这将帮助您熟悉平台的核心功能。
 
 ## 用户指引
 
 **用户指引**模块详细介绍 TianGong LCA 平台的各项核心功能，帮助您全面掌握平台的使用方法：
 
-- **[数据平台介绍](/docs/user-guide/data.md)**: 了解如何创建、编辑和管理单元过程、物质流、流属性以及相关的联系人和数据源，确保数据的准确性和完整性。
+- **[数据平台介绍](/user-guide/data)**: 了解如何创建、编辑和管理单元过程、物质流、流属性以及相关的联系人和数据源，确保数据的准确性和完整性。
 
-- **[账户管理](/docs/user-guide/account-profile.md)**: 掌握如何管理个人账户信息、设置安全选项，以及调整平台的使用偏好，确保您的数据和账户安全。
+- **[账户管理](/user-guide/account-profile)**: 掌握如何管理个人账户信息、设置安全选项，以及调整平台的使用偏好，确保您的数据和账户安全。
 
-- **[按键功能介绍](/docs/user-guide/key-functions-introduction.md)**: 了解平台界面中各个按键的具体功能及其使用方法，方便您高效操作和管理生命周期评价相关数据。
+- **[按键功能介绍](/user-guide/key-functions-introduction)**: 了解平台界面中各个按键的具体功能及其使用方法，方便您高效操作和管理生命周期评价相关数据。
 
-- **[数据新建](/docs/user-guide/create-my-data.md)**: 学习如何创建和管理自己新建的 LCA 数据集，包括模型、过程、流和流属性等，确保数据的准确性和完整性。
+- **[数据新建](/user-guide/create-my-data)**: 学习如何创建和管理自己新建的 LCA 数据集，包括模型、过程、流和流属性等，确保数据的准确性和完整性。
 
-- **[数据使用](/docs/user-guide/data-use.md)**: 探索平台提供的标准化 LCA 数据集，学习如何浏览、引用和管理这些数据，确保数据的一致性和可追溯性。
+- **[数据使用](/user-guide/data-use)**: 探索平台提供的标准化 LCA 数据集，学习如何浏览、引用和管理这些数据，确保数据的一致性和可追溯性。
 
-- **[数据搜索](/docs/user-guide/search.md)**: 掌握在平台上搜索和下载 LCA 数据集的基础操作，确保您能够快速获取所需数据。
+- **[数据搜索](/user-guide/search)**: 掌握在平台上搜索和下载 LCA 数据集的基础操作，确保您能够快速获取所需数据。
 
-- **[数据审核](/docs/user-guide/data-review.md)**: 了解平台中的数据审核功能，便于规范数据提交流程并提升数据质量与可信度。
+- **[数据审核](/user-guide/data-review)**: 了解平台中的数据审核功能，便于规范数据提交流程并提升数据质量与可信度。
 
 ## 数据收集
 
-- **[数据收集说明](/docs/data-collection/data-collection-instructions.md)**: 说明数据收集工作的通用原则、来源渠道、操作流程及质量控制要求。
+- **[数据收集说明](/data-collection/data-collection-instructions)**: 说明数据收集工作的通用原则、来源渠道、操作流程及质量控制要求。
 
-- **[案例介绍](/docs/data-collection/case-introduction/data-evaluation.md)**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
+- **[案例介绍](/data-collection/case-introduction/data-evaluation)**: 通过实际案例，深入了解 TianGong LCA 平台的应用场景和数据处理流程，帮助您更好地理解平台的功能和优势。
 
-## 平台部署
+## 集成与扩展
 
-- **[建立我的数据](/docs/deploy/local-deploy.md)**：了解如何通过TianGong LCA平台创建自己的数据。
+- **[天工LCA MCP（本地）](/MCP/lca_local)**：了解如何在本地环境部署 MCP Server 并与 openLCA、Cherry Studio 等工具配合使用。
+- **[天工LCA MCP（远程）](/MCP/lca_remote)**：掌握远程服务的认证方式与常见调用流程。
+- **[天工知识库MCP](/MCP/KB_remote)**：接入知识库工具，扩展检索与分析能力。
 
-## 贡献与开发
+## 部署与开发
 
-**项目配置**：提供项目配置教程，涵盖安装依赖、配置文件及自动发布等过程。
+- **[私有部署](/deploy/local-deploy)**：使用 Docker 在本地或企业环境中部署 TianGong LCA。
+- **[开发环境配置](/dev/dev-env)**：搭建项目开发环境，支持二次开发与贡献。
 
 ## 更新日志
 
-- **[功能更新](/docs/changelog/function-update.md)**：通过更新日志详细记录平台功能的最新进展。
+- **[功能更新](/changelog/function-update)**：通过更新日志详细记录平台功能的最新进展。
 
 ## 常见问题
 
@@ -77,3 +80,5 @@ TianGong LCA 平台将为您的 LCA 数据管理和环境影响评估提供全�
   **更多问题**：访问 完整FAQ页面 获取所有常见问题的详细解答。
 
 ## 资源与支持
+
+- **[资源与支持](/resources-and-support)**：了解天工计划的背景、TIDAS 数据体系，以及常用的 LCA/碳足迹标准与导则，便于延伸阅读或对接合作资源。

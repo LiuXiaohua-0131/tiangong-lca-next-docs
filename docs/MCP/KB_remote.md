@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # 天工知识库MCP
 
+如需查看知识库工具的最新说明、示例与常见问题，可访问[天工MCP Hub](https://hub.ceeai.net/)。
+
 ## 远程认证
 
 ### API Key
@@ -16,9 +18,9 @@ sidebar_position: 2
 
 MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Inspector页面。
 
-    ```bash
-    npx @modelcontextprotocol/inspector
-    ```
+```bash
+npx @modelcontextprotocol/inspector
+```
 
 1. Transport Type配置：在Inspector页面，点击下拉框，选择Streamable HTTP。  
 2. url配置：填写MCP Server端口 [https://mcp.tiangong.earth/mcp](https://mcp.tiangong.earth/mcp)。
@@ -34,7 +36,7 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
 
     ![](img/19.png)
 
-### Cherry studio
+### Cherry Studio
 
 在[Cherry Studio官网](https://www.cherry-ai.com/download)，参照[官方文档](https://docs.cherry-ai.com/pre-basic/installation)下载软件至本地并打开。  
 
@@ -44,11 +46,11 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
 
     ![](img/6.png)
 
-4. 信息填写：配置本地MCP Server的基本信息（Headers处的XXX为获得到的API Key）。  
+4. 信息填写：配置本地MCP Server的基本信息（Headers处的XXX为获取到的API Key）。  
 
-    >Type:Streamable HTTP  
-    >URL:[https://mcp.tiangong.earth/mcp](https://mcp.tiangong.earth/mcp)  
-    >headers:  
+    >Type: Streamable HTTP  
+    >URL: [https://mcp.tiangong.earth/mcp](https://mcp.tiangong.earth/mcp)  
+    >Headers:  
     >Content-Type=application/json  
     >Authorization=Bearer XXX
 
@@ -63,7 +65,7 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
 
     ![](img/23.png)
 
-### Dify  
+### Dify
 
 1. 工具页面访问：点击上边栏"Tools"选项，跳转至工具管理页面。
 1. MCP工具搜索：在搜索栏输入"MCP"关键词进行搜索。
@@ -100,4 +102,4 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
 
     >
     >1. 智能体、工作流的创建可参照[官方文档](https://docs.dify.ai/zh-hans/guides/application-orchestrate/creating-an-application)。
-    >2. MCP应用请参照[官方文档](https://docs.dify.ai/zh-hans/guides/tools/mcp)
+    >2. MCP应用请参照[官方文档](https://docs.dify.ai/zh-hans/guides/tools/mcp)。

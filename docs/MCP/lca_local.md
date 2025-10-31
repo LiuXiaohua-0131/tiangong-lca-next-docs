@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # 天工LCA MCP（本地）
 
+访问[天工MCP Hub](https://hub.ceeai.net/)获取最新插件示例、配置脚本与常见问题说明，下文概述本地部署的关键步骤。
+
 ## openLCA配置
 
 ### openLCA安装
@@ -41,7 +43,7 @@ sidebar_position: 3
 
 ### nvm安装
 
-依据系统类型，在在对应的官方网站([Windows](https://github.com/coreybutler/nvm-windows/releases)、[Linux、macOS](https://github.com/nvm-sh/nvm))按照文档下载nvm至本地。  
+依据系统类型，在对应的官方网站([Windows](https://github.com/coreybutler/nvm-windows/releases)、[Linux、macOS](https://github.com/nvm-sh/nvm))按照文档下载nvm至本地。  
 
 ### Node.js包
 
@@ -53,7 +55,7 @@ sidebar_position: 3
     # 安装Node.js版本22
     nvm install 22
     # 配置使用的Node.js版本
-    nvm use <version>
+    nvm use 22
     ```
 
 2. MCP-Server package安装  
@@ -138,7 +140,7 @@ npx @modelcontextprotocol/inspector
     {
         "tiangong_lca_local": {
         "transport": "streamable_http",
-        "url": "http://host.docker.internal:9278/mcp  ",
+        "url": "http://host.docker.internal:9278/mcp",
         "headers": {
             "Accept": "application/json,text/event-stream",
         },
