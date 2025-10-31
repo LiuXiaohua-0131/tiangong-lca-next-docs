@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # TianGong Knowledge Base MCP
 
+Check the [TianGong MCP Hub](https://hub.ceeai.net/) for updated knowledge-base tooling guides, scripts, and FAQs. The essentials are summarised below.
+
 ## Remote Authentication
 
 ### API Key
@@ -16,9 +18,9 @@ To obtain an API Key, please contact the Environmental Data Science and Systems 
 
 MCP Inspector Launch: Enter the following command in the terminal, which will automatically redirect to the Inspector page.
 
-    ```bash
-    npx @modelcontextprotocol/inspector
-    ```
+```bash
+npx @modelcontextprotocol/inspector
+```
 
 1. Transport Type Configuration: On the Inspector page, click the dropdown box and select Streamable HTTP.  
 2. URL Configuration: Fill in the MCP Server port [https://mcp.tiangong.earth/mcp](https://mcp.tiangong.earth/mcp).  
@@ -76,7 +78,7 @@ At the [Cherry Studio official website](https://www.cherry-ai.com/download), fol
 1. Configuration Window Opening: Click to open the MCP detailed configuration window.  
 1. Basic Information Filling: Fill in necessary connection information in the configuration window. (Example below)
 
-    ```JSON
+    ```json
     {
         "tiangong_kb_remote": {
         "transport": "streamable_http",

@@ -4,14 +4,16 @@ sidebar_position: 1
 
 # Feature Updates
 
+Track the evolution of TianGong LCA: each entry lists the release date, new capability, and the guide you should read to adopt it.
+
 ## 2025-07-21
 
-### New Feature: LCIA calculation available (see [/i18n/en/docusaurus-plugin-content-docs/current/user-guide/lcia.md](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/lcia.md)).
+### Added: [LCIA calculation](/en/user-guide/lcia)
 
 ## 2025-06-17
 
-### New Feature: [Review Status Filtering: All/Unreviewed/In Review/Reviewed](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/data-review.md#review-status-filtering-allunreviewedin-reviewreviewed)
+### Added: [Review status filters](/en/user-guide/data-review#status-filters)
 
 ## 2025-06-06
 
-### New Features: Data [Import](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/key-functions-introduction.md#-data-import) and [Export](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/key-functions-introduction.md#-data-export) functionality, [Data Validation](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/data-review.md#data-check-button-pre-review-required-fields-validation) feature
+### Added: Data [import & export](/en/user-guide/key-functions-introduction#data-operations) plus [Data check self-validation](/en/user-guide/data-review#review-workflow)

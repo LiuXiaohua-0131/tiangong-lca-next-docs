@@ -2,100 +2,81 @@
 sidebar_position: 3
 ---
 
-# Key Functions Introduction
+# Key Functions Overview
 
-This section will help you understand the specific functions and usage of various buttons in the platform interface, enabling efficient operation and management of life cycle assessment data.
+This guide groups frequently used interface controls by scenario so you can quickly locate the right action while navigating TianGong LCA. Numbers in the screenshots correspond to the labels in each section.
 
-## Main Interface Top-Right Function Buttons
+---
 
-The top-right corner of the main interface contains the following function buttons:
+## Page Navigation
 
-### ① Light/Dark Mode Toggle
+### Top toolbar
 
-Switch between light and dark modes to accommodate different lighting environments and user preferences.
+- **Light / Dark mode**: Switch themes to fit your working environment.  
+- **Language switcher**: Toggle the UI language.  
+- **Documentation link**: Open the TianGong documentation site for detailed guidance.  
+- **Message center**: Review notifications and system alerts—coordinate follow-up with the [Team Guide](/en/user-guide/team-function).
 
-### ② Language Selection
+![Top toolbar](img/main-page-buttons.png)
 
-Choose your preferred language for platform display.
+### Data table controls
 
-### ③ Platform Documentation Access
+- **Refresh**: Fetch the latest records.  
+- **Display density**: Choose Comfortable / Medium / Compact row spacing.  
+- **Column settings**: Show or hide columns (ID, Category, Version, Updated At, Actions, etc.); Reset returns to defaults.  
+- **Fullscreen**: Hide the sidebar and search bar to maximise the table view.
 
-Click the question mark icon to access Tiangong platform documentation, where you can find detailed usage instructions and FAQs.
+![Table controls](img/page-button-1.png)
 
-### ④ Platform Notifications
+You can combine column settings with fullscreen to focus on specific attributes:
 
-Provides real-time message alerts to keep users informed of platform notifications.
+![Column configuration example](img/filter-column-data.png)
 
-![Alt text](img/main-page-buttons.png)
+---
 
-## Public Data Interface Buttons
+## Data Operations
 
-### ⑤ Page Refresh
+### Row-level actions
 
-Refresh the page to view the latest data and information.
+- **View versions**: Inspect the revision history of a dataset.  
+- **View details**: Open a read-only view of the full data structure.  
+- **Copy**: Duplicate the dataset into “My Data” for editing.  
+- **Export JSON**: Download a TIDAS-compatible `.json` file for backup or integration.  
+  - ⚠️ Confirm the receiving system understands the TIDAS schema before importing.
 
-### ⑥ Data Display Density Adjustment
+![Row-level actions](img/page-button-2.png)
 
-Supports three density modes: Comfortable, Medium, and Compact to accommodate different screens and preferences (default is Medium).
+### “My Data” exclusive actions
 
-### ⑦ Column Settings - Select Displayed Data Columns
+The “My Data” module adds:
 
-Filterable columns include: ID, Name, Category, Version, Update Time, and Actions. Click Reset to restore default settings.
+- **Add new item**: Create a new process, model, flow, etc. Follow the workflow in [Create My Data](/en/user-guide/create-my-data).  
+- **Import**: Upload JSON files that match the TIDAS structure; fields are mapped automatically.  
+- **Edit**: Modify the selected record.  
+- **Contribute to team**: Share the item with your team workspace for collaborative use.
 
-### ⑧ Fullscreen Mode
+![My Data actions](img/page-button-3.png)
 
-Click to enter fullscreen data viewing mode: hides left navigation bar, collapses top search box, and maximizes data table area.
+Importing expects well-formed JSON with no structural errors:
 
-![Alt text](img/page-button-1.png)
+![Import dialog](img/import.png)
 
-Fullscreen mode with filterable columns displayed:
+---
 
-![Alt text](img/filter-column-data.png)
+## Collaboration & Notifications
 
-### ⑨ View All Versions
+### Message centre
 
-View all historical versions of the document to track updates and changes.
+The top-right message icon surfaces pending invitations, review decisions, and other alerts. Check it regularly—especially at the start of a work session—to avoid missing required actions.
 
-### ⑩ View Data Details (Read-only)
+### Team management actions
 
-View complete data content and structure (editing disabled).
+Within “My Team”, authorised users can:
 
-### ⑪ Copy Function
+- **Invite member / Resend invite**: Search by username and send an invitation.  
+- **Set as admin / Set as member**: Promote or demote a teammate’s role.  
+- **Remove member**: Revoke access for the selected user.
 
-Quickly create a duplicate of the data item for modeling or modification based on existing data.
+![Team member actions](img/members-message-actions.png)
 
-### ⑫ Data Export
-
-Export the data item as a standard .json file for offline backup, local analysis, or cross-system integration.
-
-⚠️ Exported format is standard .json file with platform-compatible field structure.
-
-![Alt text](img/page-button-2.png)
-
-![Alt text](img/export.png)
-
-## My Data Interface Buttons
-
-(Omitting descriptions of buttons identical to those in other interfaces) The following are unique to the **My Data** interface:
-
-### ⑬ Add New Data Item
-
-Create a new data record. Learn more at [Create My Data](/i18n/en/docusaurus-plugin-content-docs/current/user-guide/create-my-data.md).
-
-### ⑭ Data Import
-
-Supports importing standardized .json files. The system automatically parses file contents and matches fields.
-
-### ⑮ Edit Information
-
-Edit detailed information of the current data item to update its content.
-
-### ⑯ Contribute to Team
-
-Share the current data item with your team, allowing other members to view and use it.
-
-![Alt text](img/page-button-3.png)
-
-⚠️ Current version only supports importing JSON files that comply with TIDAS structure standards without nested errors.
-
-![Alt text](img/import.png)
+Refer to [Team Functions](/en/user-guide/team-function#permission-matrix-and-common-actions) for detailed role capabilities and collaboration tips.

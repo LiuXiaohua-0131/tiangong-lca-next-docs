@@ -84,6 +84,6 @@ sidebar_position: 3
 - **设为管理员 / 设为成员**：调整团队角色。  
 - **移除成员**：将成员移出团队。
 
-![团队管理按钮](img/members%20-message-actions.png)
+![团队管理按钮](img/members-message-actions.png)
 
 不同角色可执行的具体操作，请参考[团队功能介绍](./team-function#权限矩阵与常见操作)。

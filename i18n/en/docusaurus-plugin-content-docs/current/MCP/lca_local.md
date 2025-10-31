@@ -2,7 +2,9 @@
 sidebar_position: 3
 ---
 
-# TianGong LCA MCP(Local)
+# TianGong LCA MCP (Local)
+
+Visit the [TianGong MCP Hub](https://hub.ceeai.net/) for the latest plug-in samples, configuration scripts, and FAQs. This page summarises the key steps for local deployment.
 
 ## OpenLCA Configuration
 
@@ -53,7 +55,7 @@ Depending on your system type, download nvm to your local machine from the corre
     # Install Node.js version 22
     nvm install 22
     # Configure the Node.js version to use
-    nvm use <version>
+    nvm use 22
     ```
 
 2. MCP-Server Package Installation  
@@ -138,7 +140,7 @@ Based on the [official Dify documentation](https://docs.dify.ai/zh-hans/getting-
     {
       "tiangong_lca_local": {
         "transport": "streamable_http",
-        "url": "http://host.docker.internal:9278/mcp  ",
+        "url": "http://host.docker.internal:9278/mcp",
         "headers": {
           "Accept": "application/json,text/event-stream",
         },

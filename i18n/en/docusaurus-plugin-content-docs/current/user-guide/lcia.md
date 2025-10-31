@@ -2,44 +2,36 @@
 sidebar_position: 5
 ---
 
-# LCIA Calculation and Viewing
+# LCIA Calculation & Results
 
-This page briefly explains how to trigger LCIA (Life Cycle Impact Assessment) calculations on the platform, view results, and common troubleshooting steps.
+This page explains how to trigger life cycle impact assessment (LCIA) calculations, interpret the outputs, and resolve common issues.
 
-## Overview
+## Prerequisites
 
-LCIA converts LCI (life cycle inventory) results into environmental impact indicators. The platform supports triggering LCIA calculations at the model and process levels and viewing the calculated results.
+- Use the platform’s standard flow properties and unit groups whenever possible; custom definitions can break LCIA mappings. See [Create My Data](/en/user-guide/create-my-data) for guidance.  
+- Ensure the process or model has complete input/output flows and a defined reference flow.  
+- Confirm that characterisation factors exist for the chosen impact categories.
 
-## Preconditions
+## Run the calculation
 
-- Use platform-provided standard flow properties and units; avoid custom unit groups or flow properties. See the "Creating Data" page for related notes. Custom units or properties may cause LCIA calculation failures or incorrect results.
-- Models or processes should have their inputs/outputs correctly bound and a reference (functional) flow set.
-- Ensure characterization factors are available for the selected impact categories; otherwise some categories cannot be calculated.
+- **Process level**: Open a process in “My Data → Processes”, click the LCIA button in the editor, and wait for the results panel to populate.  
+- **Model level**: Open a model in “My Data → Models”, run LCIA from the results panel, and review outcomes for the entire system.  
+  - Running LCIA at the model level captures the combined effects of linked processes, including co-products and waste streams.
 
-## Where to trigger calculation
+![LCIA results panel](./img/lcia-calculation.png)
 
-1. Model: Open the target model under "My Data → Models", go to the Results or Inputs & Outputs panel, and click the "Calculate LCIA" / "Run assessment" button (UI label may vary by version). After the calculation finishes, results will appear in the model results panel.
-2. Process: Open a unit process under "My Data → Processes" and use the "Run LCIA" or "Calculate results" action present on the page to view process-level results.
+## Reading the results
 
-(Note: UI labels and panel locations may change between releases. Refer to demo videos or contact an administrator if you cannot find the controls.)
+- Results are grouped by impact category (e.g. GWP, ozone depletion, acidification).  
+- Values are reported against the reference flow or functional unit specified in the dataset.  
+- You can switch categories, compare scenarios, or export data for further analysis.
 
-## Viewing results
-
-- Results are typically listed by impact categories (e.g. GHGs, ozone depletion, acidification) and can be normalized to the functional unit or reference flow.
-- You can switch between impact categories in the model results panel or export results for further analysis.
-
-- Note: LCIA run at the **process** level includes only the impacts caused by the process's elementary flows. It does not include impacts from other products or waste streams produced by the process.
-- To include product and waste impacts across linked processes, run LCIA at the **model** level (assemble related processes into a model and run the assessment there).
+Process-level calculations only include elementary flows within that process. To analyse combined impacts, build a model with the relevant processes and run LCIA there.
 
 ## Troubleshooting
 
-- Missing categories or failed calculation: check that flows have standard properties and units provided by the platform.
-- Abnormal magnitudes (scale errors): verify units are consistent and not created from custom unit groups.
-- Missing characterization factors error: ensure selected impact categories have characterization factors for the used flows.
+- **Missing or partial results**: Verify that flows use compatible unit groups and flow properties, and that the impact method contains factors for your elementary flows.  
+- **Unexpected magnitudes**: Check unit conversions and ensure you are not mixing custom units with platform defaults.  
+- **Calculation failures**: Re-run `Data check`, review error prompts, and confirm the dataset references are valid.
 
-If issues persist, inspect flows/units/flow properties in "My Data" and refer to "Creating Data" and "Data Platform Overview".
-
-## Related
-
-- Data Platform Overview: /docs/user-guide/data.md
-- Creating Data: /docs/user-guide/create-my-data.md
+If problems persist, revisit the configuration in “My Data”, and consult [Create My Data](/en/user-guide/create-my-data) and [Data Platform Overview](/en/user-guide/data) for foundational setup steps.

@@ -1,95 +1,71 @@
 ---
 sidebar_position: 7
+title: Team Functions
 ---
 
-# Team Functionality Guide
+# Team Functions
 
-This section explains the platform's team collaboration features for managing and sharing lifecycle assessment data.
+Team workspaces centralise shared datasets, enforce permissions, and streamline collaboration. This page explains why teams matter, how to join or create one, and what each role can do.
 
-## Overview
+## Why use teams?
 
-The platform supports team creation and membership for collaborative data management. Users can:
+- **Centralised management**: Owners can oversee members, datasets, and review progress in one place.  
+- **Permission control**: Assign roles to ensure only authorised people can publish or remove assets.  
+- **Efficient collaboration**: Shared “Team Data” keeps everyone aligned on the latest versions.
 
-- **Create Teams**: Become team owners with full administrative privileges to manage members and settings.
-- **Join Teams**: Requires invitation from team owners or administrators.
+Open **My Team** in the sidebar to view your workspace. If you are not yet part of a team, you will be prompted to create or join one.
 
-Users accessing **My Team** without existing membership can choose to create or join a team.
+![My Team entry](img/my-team.png)
 
-![Team Management Interface](img/my-team.png)
-![Join or Create Team](img/join-or-create-team.png)
+## Create or join a team
 
----
+### Create a team
 
-## Creating a Team
+1. Click **Create Team**.  
+2. Provide a name, description, and (optionally) contact details.  
+3. Confirm to become the team owner.
 
-Click "Create Team", enter basic information (team name, description), and confirm to establish a new team.
+![Create team flow](img/create-team.png)
 
-![Create Team Button](img/create-team.png)
-![Team Information Form](img/team-information.png)
+### Join a team
 
----
+1. Use **Join Team** to search for existing teams and view contact information.  
+2. Reach out to the owner or administrator to request an invitation.  
+3. Membership is invitation-only; self-enrolment is not supported.
 
-## Joining a Team
+![Join team search](img/join-team.png)
 
-Standard users can search for teams via "Join Team" and contact owners using provided contact information.
+## Invitation workflow
 
-![Join Team Interface](img/join-team.png)
-![Team Search Function](img/search-team.png)
+1. **Send invitation**: Owners or admins search for a username and send an invite.  
+   ![Send invitation](img/add-member.png) ![Invitation email detail](img/team-member-email.png)
+2. **Receive notification**: Invited users see a badge in the message centre; accepting joins them to the team.  
+   ![Invitation notification](img/team-invitation.png)
+3. **Collaborate**: New members gain access to team datasets and can contribute through “My Data → Contribute to team”.  
+   ![Team data view](img/team-member-data.png)
 
-⚠️ Currently only supports **invitation-only membership** - users cannot join teams without owner/admin approval.
+## Permission matrix & common actions {#permission-matrix-and-common-actions}
 
----
+| Action | Owner | Admin | Member |
+| --- | --- | --- | --- |
+| Edit team profile | ✅ | | |
+| Invite / Resend invitation | ✅ | ✅ | |
+| Adjust roles | ✅ | | |
+| Remove members | ✅ | ✅ | |
+| View team data | ✅ | ✅ | ✅ |
+| Contribute personal data to team | ✅ | ✅ | ✅ |
 
-## Team Invitation Process
+### Practical tips
 
-1. **Owner/Admin Invitations**:
-   Team owners and administrators can invite new members via username search.
+- Promote trusted collaborators to admins to distribute onboarding tasks.  
+- After editing in “My Data”, use **Contribute to team** to share updates with colleagues.  
+- Need help finding the right button? Check the controls listed in [Key Functions Overview](/en/user-guide/key-functions-introduction#collaboration--notifications).
 
-   ![Add Member Interface](img/add-member.png)
-   ![Member Email Display](img/team-member-email.png)
+## FAQ
 
-2. **Accepting Invitations**:
-   Invited members receive notifications (red dot indicator) and must accept invitations to join.
-
-   ![Invitation Notification](img/team-invitation.png)
-
-3. **Successful Joining**:
-   Members gain access to team data and can contribute to collaborative work.
-
-![Team Data Access](img/team-member-data.png)
-
----
-
-## Team Management Features
-
-The member interface displays:
-
-- **Usernames and emails**
-- **Member roles**:
-  - `Owner` (creator with full privileges)
-  - `Administrator` (assigned management rights)
-  - `Member` (standard viewing rights)
-
-![Role Management](img/team-role.png)
-
-Owners can perform these management actions:
-
-- Invite new members
-- Assign administrator status
-- Revoke administrator privileges
-- Resend invitations
-- Remove members
-
-Administrators can:
-
-- Invite new members
-- Remove existing members
-
-For detailed button functions, see: [Team Button Reference]
-
----
-
-## Frequently Asked Questions
-
-- **Why don't some flows show units when contributed by team members?**  
-Public system flows display units automatically. Member-created flows require synchronization of both process AND flow data to properly display units and properties.
+- **Why do contributed processes sometimes miss flow units?**  
+  Ensure the underlying flows (not just the processes) are also contributed or shared; otherwise unit definitions remain private.
+- **Why didn’t my teammate receive an invitation?**  
+  Ask them to verify the message centre. If nothing appears, confirm the account ID and resend the invite.
+- **Why can’t I edit datasets directly in Team Data?**  
+  Team Data is intentionally read-only to prevent conflicts. Copy the dataset to “My Data”, edit it there, and contribute the updated version back to the team.

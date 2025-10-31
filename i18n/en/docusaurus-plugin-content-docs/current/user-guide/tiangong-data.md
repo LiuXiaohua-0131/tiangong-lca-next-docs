@@ -31,7 +31,7 @@ sidebar_position: 4
 3. Open copy page: Click "Copy Data" to open the "Copy Information" page.
 4. Save changes: Click the "Save" button at the bottom of the edit page to return to the previous panel.
 5. Expand data panel: Locate the left navigation bar, click "My Data" to activate the data management interface.
-6. Navigate process directory: Select target entry in the hierarchical list, the page will jump to the corresponding data space where you can see the copied data and perform modifications (see [My Data](./create-my-data.md) for operation guidance).
+6. Navigate process directory: Select the target entry in the hierarchical list; the page will jump to the corresponding data space where you can view the copied data and make modifications (see [My Data](./create-my-data) for guidance).
 
 ![](./img/open2.png)
 

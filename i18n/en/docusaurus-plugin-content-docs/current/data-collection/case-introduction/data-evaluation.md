@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Data Evaluation
 
-For data collection guidelines, refer to [Data Collection Instructions](i18n/en/docusaurus-plugin-content-docs/current/data-collection/data-collection-instructions.md)
+For data collection guidelines, refer to [Data Collection Instructions](/en/data-collection/data-collection-instructions)
 
 This case study is based on the literature [Comparative environmental assessment of methanol production technologies](https://doi.org/10.1016/j.enconman.2024.118128), demonstrating how to extract data from literature, preprocess it, and establish a lifecycle model for biomass-to-methanol production in the TianGong LCA Data Platform.
 
@@ -42,7 +42,7 @@ Material/energy flows extracted from literature:
 
 ![Alt text](./img/data-list.png)
 
-**Combining the flow diagram and data content, this case modeling includes two levels: [Unit Process Construction](i18n/en/docusaurus-plugin-content-docs/current/data-collection/case-introduction/unit-process-construction.md) (three single processes) and [Model Building](i18n/en/docusaurus-plugin-content-docs/current/data-collection/case-introduction/model-building.md)**
+**Combining the flow diagram and data content, this case modelling includes two levels: [Unit Process Construction](/en/data-collection/case-introduction/unit-process-construction) (three single processes) and [Model Building](/en/data-collection/case-introduction/model-building)**
 
 Each sub-process requires specifying:
 
@@ -56,7 +56,7 @@ The overall model is a partially terminated system, with the third unit process 
 
 **Processing Notes:**
 
-- **Missing data**: Wastewater amount not provided - estimated based on material balance (details in Unit Process Construction)
+- **Missing data**: Wastewater amount not provided—estimated based on material balance (details in [Unit Process Construction](/en/data-collection/case-introduction/unit-process-construction)).
 
 > Important Note:
 When required units differ from flow units, perform **unit conversion** rather than creating new Flow items.
