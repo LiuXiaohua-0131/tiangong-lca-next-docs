@@ -32,7 +32,7 @@ Use this page as your compass through the TianGong LCA documentation. Follow the
 ## Quick shortcuts
 
 - Need a button reference? Jump to the “Page Navigation”, “Data Operations”, or “Collaboration & Notifications” sections in [Key Functions Overview](/en/user-guide/key-functions-introduction).  
-- Creating a new dataset? Follow the “Prepare → Build datasets → Quality check” stages in [Create My Data](/en/user-guide/create-my-data).  
+- Creating a new dataset? Follow the “Prepare → Build datasets → Data validation” stages in [Create My Data](/en/user-guide/create-my-data).  
 - Facing a review blocker? Check the “Common blockers” table in [Data Review](/en/user-guide/data-review).  
 - Collaborating with teammates? Use the permission matrix in [Team Functions](/en/user-guide/team-function).
 
