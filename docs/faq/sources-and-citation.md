@@ -21,7 +21,7 @@ description: 规范 TianGong LCA 数据的引用方式，提升溯源透明度�
 
 ## 引用 TianGong LCA 数据的推荐格式
 
-> TianGong LCA Platform, Dataset: *数据集名称*, Version X.Y.Z, Retrieval date: YYYY-MM-DD, Available at: https://lca.tiangong.earth/
+> TianGong LCA Platform, Dataset: *数据集名称*, Version X.Y.Z, Retrieval date: YYYY-MM-DD, Available at: [https://lca.tiangong.earth](https://lca.tiangong.earth)
 
 可在此基础上补充项目或研究背景，确保读者能够定位到具体数据。
 
