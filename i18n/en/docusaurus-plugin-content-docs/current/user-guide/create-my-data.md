@@ -4,8 +4,6 @@ title: Create My Data
 description: Follow the Prepare → Build → Data validation flow to create processes, models, flows, and supporting references in “My Data”.
 ---
 
-# Create My Data
-
 Within “My Data” you control the full lifecycle of TianGong LCA datasets. This guide breaks the work into three stages—**Preparation → Build datasets → Data validation & publish**—to minimise rework and keep references consistent.
 
 ## Before you start

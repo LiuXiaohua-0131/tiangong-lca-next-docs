@@ -3,8 +3,6 @@ title: System Modelling
 description: Answers about building models in TianGong LCA and how it compares with other LCA tools.
 ---
 
-# System Modelling FAQ
-
 ## How do I build a model in TianGong LCA?
 
 1. Create or select the required unit processes in **My Data → Processes**, ensuring inputs and outputs are complete.  
