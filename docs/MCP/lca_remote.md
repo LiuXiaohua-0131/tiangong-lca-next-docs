@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # 天工LCA MCP（远程）
 
+更多发布说明和工具示例可参阅[天工MCP Hub](https://hub.ceeai.net/)，该站点持续更新远程服务的配置注意事项。
+
 ## 远程认证
 
 远程访问需要Bearer token认证，目前，有两种主要方法来获取Bearer token：通过**OAuth 2.0 Flow**和通过**天工生命周期数据平台**。
@@ -20,7 +22,7 @@ sidebar_position: 4
 
     ![](img/11.png)
 
-### OAUth 2.0 Flow
+### OAuth 2.0 Flow
 
 1. OAuth界面访问：打开[天工MCP服务器 OAuth Authentication Demo界面](https://lcamcp.tiangong.earth/oauth/demo)。
 2. 授权流程启动：下拉页面，找到"Start OAuth Flow"按钮，点击开始授权。
@@ -37,9 +39,9 @@ sidebar_position: 4
 
 MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Inspector页面。  
 
-    ```bash
-    npx @modelcontextprotocol/inspector
-    ```
+```bash
+npx @modelcontextprotocol/inspector
+```
 
 1. Transport Type配置：在Inspector页面点击下拉框，选择"Streamable HTTP"。
 2. url配置：在url栏填写MCP Server端口地址：[https://lcamcp.tiangong.earth/mcp](https://lcamcp.tiangong.earth/mcp)。
@@ -54,7 +56,7 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
 
     ![](img/12.png)
 
-### Cherry studio
+### Cherry Studio
 
 在[Cherry Studio官网](https://www.cherry-ai.com/download)，参照[官方文档](https://docs.cherry-ai.com/pre-basic/installation)下载软件至本地并打开。  
 
@@ -65,8 +67,8 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
     ![](img/6.png)
 
 4. 服务器信息填写：配置远程MCP Server的基本信息（Headers处的XXX为获得的Access token或API Key）。
-    >Type:Streamable HTTP  
-    >URL:[https://lcamcp.tiangong.earth/mcp](https://lcamcp.tiangong.earth/mcp)  
+    >Type: Streamable HTTP  
+    >URL: [https://lcamcp.tiangong.earth/mcp](https://lcamcp.tiangong.earth/mcp)  
     >Headers:  
     >Content-Type=application/json  
     >Authorization=Bearer XXX  
@@ -99,7 +101,7 @@ MCP Inspector启动：在终端输入如下命令，输入后自动跳转至Insp
     {
         "tiangong_lca_remote": {
         "transport": "streamable_http",
-        "url": "https://lcamcp.tiangong.earth/mcp  ",
+        "url": "https://lcamcp.tiangong.earth/mcp",
         "headers": {
             "Accept": "application/json,text/event-stream",
             "Authorization": "Bearer XXX"

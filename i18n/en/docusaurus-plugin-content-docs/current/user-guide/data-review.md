@@ -1,35 +1,55 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Data Review
 
-This section helps you understand the data review functionality in the platform, facilitating standardized data submission processes and improving data quality and reliability.
+Data review safeguards dataset quality by checking completeness, traceability, and modelling assumptions. This guide outlines the **roles**, **workflow**, **supporting tools**, and **common blockers** involved.
 
-## Data Check Button: Pre-review Required Fields Validation
+## Roles & responsibilities
 
-In the Edit Process interface, a "Data check" button has been added at the bottom. Users can run a completeness self-check before clicking "Submit for review". This feature helps users identify issues early and reduces review iterations.
+| Role | Key actions | Main screens |
+| --- | --- | --- |
+| **Author** | Prepare data, run self-checks, submit for review, fix feedback | “My Data” editor, message centre |
+| **Reviewer** | Inspect submissions, verify references, approve or request changes | “Review” list, message centre |
+| **Team admin** | Assign reviewers, monitor progress | “My Team”, status filters |
 
-![Alt text](img/data-check.png)
+## Review workflow
 
-## Submission Validation: Prompt for Incomplete Data
+1. **Prepare & self-check**  
+   - Click `Data check` in the process/model editor to validate required fields before submission.  
+   - Address any highlighted issues immediately.  
+   ![Data check button](img/data-check.png)
 
-When users click "Submit for review", the system automatically performs preliminary validation of referenced data. If issues are found, a detailed prompt appears listing all non-compliant items, enabling quick identification and correction.
+2. **Submit for review**  
+   - Use `Submit for review`; the system re-runs the validation.  
+   - If problems remain, a modal lists each blocking item—resolve them and resubmit.  
+   ![Submission validation prompt](img/data-problem.png)
 
-![Alt text](img/data-problem.png)
+3. **Review execution**  
+   - Reviewers receive notifications in the message centre and can use the status filters to locate pending items.  
+   - Verify references, source quality, language completeness, and modelling assumptions.
 
-## Review Status Filtering: All/Unreviewed/In Review/Reviewed
+4. **Feedback & resolution**  
+   - Approved datasets move forward to publication.  
+   - Returned datasets include reviewer notes; authors edit the content and submit again.
 
-Users can filter data or projects by review status in the review list, improving management efficiency and visibility.
+## Status filters
 
-Available status filters in dropdown menu:
+Use the dropdown in the “Review” list to track progress:
 
-✅ All: Shows all review records (no status restriction)
+- ✅ **All**: Every record, regardless of state.  
+- 🕒 **Unreviewed**: Not yet submitted or assigned.  
+- 🔄 **In review**: Awaiting reviewer action.  
+- ✔️ **Reviewed**: Completed (approved or returned with comments).
 
-🕒 Unreviewed: Shows items not yet in review process
+![Review status filters](img/review-status.png)
 
-🔄 In Review: Shows submitted but not yet completed records
+## Common blockers
 
-✔️ Reviewed: Shows approved or completed records
+- **Missing references**: Ensure flows, previous versions, and sources are correctly linked.  
+- **Incomplete language fields**: Provide both Chinese and English entries where required.  
+- **Insufficient source detail**: Include author, title, publication, year, and DOI/URL; upload attachments if needed.  
+- **Custom units/properties misuse**: Confirm custom definitions align with LCIA requirements; prefer standard assets.
 
-![Alt text](img/review-status.png)
+If an issue persists, coordinate with the assigned reviewer or your team administrator, and consult the FAQ for known constraints.

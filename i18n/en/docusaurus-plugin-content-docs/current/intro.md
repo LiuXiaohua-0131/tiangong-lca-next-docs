@@ -24,40 +24,50 @@ The TianGong LCA platform provides comprehensive support for your LCA data manag
 
 ## Quick Start
 
-The **Quick Start** module is designed to help you quickly get started with the TianGong LCA platform by completing essential initial operations:
+The **Quick Start** section helps new users complete their first essential tasks on the platform:
 
-  **First-Time Login and Registration**: Learn how to create an account, log in to the platform, and familiarize yourself with the basic layout of the main interface to quickly locate the tools you need.
-
-  **Dataset Search and Download**: Master the basics of searching for and downloading LCA datasets on the platform, ensuring you can quickly access the data you need.
-
-  **Demonstration**: Understand the core functions of the platform through example operations, such as basic dataset download or data browsing. This will help you become familiar with the platform's essential features.
+- **[Registration & Login](/en/quick-start/first-login)**: Create an account, sign in, and get familiar with the main workspace layout.
+- **[Demonstrations](/en/quick-start/demonstrations)**: Follow guided walkthroughs that showcase common actions such as browsing datasets or triggering sample operations.
 
 ## User Guide
 
-The **User Guide** module provides detailed instructions on the key features of the TianGong LCA platform, helping you fully understand how to use it effectively:
+The **User Guide** is the core reference for daily work on TianGong LCA. Recommended entries include:
 
-  **My Data**: Learn how to create, edit, and manage unit processes, flows, flow properties, as well as associated contacts and data sources, ensuring data accuracy and completeness.
+- **[Interface Essentials](/en/user-guide/key-functions-introduction)**: Learn the top navigation, list actions, and collaboration controls.
+- **[Data Platform Overview](/en/user-guide/data)**: Understand the scope and permissions of Open Data, My Data, Commercial Data, and Team Data.
+- **[Data Creation](/en/user-guide/create-my-data)**: Follow the step-by-step workflow to prepare processes, models, flows, and supporting references.
+- **[Data Use & Search](/en/user-guide/data-use)** and **[Search](/en/user-guide/search)**: Retrieve datasets, copy them to your workspace, and manage reusable assets.
+- **[Data Review](/en/user-guide/data-review)**: Coordinate submission, self-check, and reviewer responsibilities.
+- **[Team Collaboration](/en/user-guide/team-function)** and **[LCIA](/en/user-guide/lcia)**: Configure team roles and run impact assessment calculations.
 
-  **TianGong Data**: Explore the standardized LCI datasets provided by the platform, and learn how to browse, reference, and manage these datasets to ensure consistency and traceability.
+## Data Collection
 
-  **Personal Page**: Discover how to manage your account information, configure security settings, and customize your platform experience to ensure your data and account security.
+- **[Data Collection Instructions](/en/data-collection/data-collection-instructions)**: General principles, data sources, workflows, and quality control for data gathering.
+- **[Case Studies](/en/data-collection/case-introduction/data-evaluation)**: Practical examples showing how to process literature or survey data, including unit process and model construction.
+
+## Integrations & Extensions
+
+- **[TianGong LCA MCP – Local](/en/MCP/lca_local)**: Set up the MCP server locally and connect it with tools like openLCA or Cherry Studio.
+- **[TianGong LCA MCP – Remote](/en/MCP/lca_remote)**: Authenticate against the hosted MCP service and learn common invocation workflows.
+- **[TianGong Knowledge Base MCP](/en/MCP/KB_remote)**: Link with the knowledge-base tooling to extend search and analysis capabilities.
+
+## Deployment & Development
+
+- **[Self-Hosted Deployment](/en/deploy/local-deploy)**: Launch TianGong LCA and the supporting Supabase stack with Docker.
+- **[Developer Environment](/en/dev/dev-env)**: Configure the project locally for customization or contributions.
+
+## Changelog
+
+- **[Feature Updates](/en/changelog/function-update)**: Track new capabilities, release dates, and related usage guides.
 
 ## FAQ
 
-The **FAQ** module helps you quickly find answers related to the TianGong LCA platform. Below are the main categories of questions covered; click the relevant links to view detailed answers:
+Quickly discover answers organized by topic:
 
-  **System Modeling Issues**: Learn how to create and manage models, including unit processes, flows, and flow properties, with common questions and solutions.
+- **[System Modeling](/en/faq/system-models)**: Guidance on model construction and how TianGong LCA compares to other LCA tools.
+- **[Sources & Citation](/en/faq/sources-and-citation)**: Citation practices, traceability, and recommended reference formats.
+- **More FAQs**: Explore the remaining entries for account management, verification, and additional support topics.
 
-  **Data Source and Citation Issues**: Find answers to questions about dataset sources, citation guidelines, and how to ensure data reliability.
+## Resources & Support
 
-  **More questions**: Visit the full FAQ page for detailed answers to all frequently asked questions.
-
-## Resources and Support
-
-The TianGong LCA platform provides extensive resources and support to ensure you can use the platform efficiently and resolve any issues you may encounter.
-
-  **Learning Resources**: Access operation videos and tutorials categorized by knowledge modules, helping you systematically learn the functions of TianGong LCA and gradually master both basic and advanced operations.
-
-  **Relevant Standards**: Get an overview and application guide for key standards such as ISO, GHG, EPD, and ILCD. These resources help you understand and adhere to relevant standards, improving the accuracy and compliance of your life cycle assessments (LCA).
-
-  **More support**: Visit the Resources & Support page for detailed learning materials and technical support information.
+- **[Resources & Support](/en/resources-and-support)**: Learn about the TianGong Initiative, the TIDAS data framework, and key LCA/carbon footprint standards to deepen your understanding or engage with partner programs.

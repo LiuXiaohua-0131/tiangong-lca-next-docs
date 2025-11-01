@@ -2,65 +2,67 @@
 sidebar_position: 1
 ---
 
-# TianGong LCA Data Platform Overview
+# Data Platform Overview
 
-This introduction will help you understand the core functionality and data modules of the TianGong LCA Data Platform, and how to use these features to manage and share lifecycle assessment data.
+Use this page to understand the scope, permissions, and typical usage of each data module before diving into creation or review work.
 
-> The TianGong LCA Platform online version is free for everyone to use. If you haven't registered an account yet, please see [First Login and Registration](../quick-start/first-login.md). To learn how to get started quickly, see [Demonstrations](../quick-start/demonstrations.md).
+> New to the platform? Complete [First Login](/en/quick-start/first-login) and review the [Demonstrations](/en/quick-start/demonstrations) first.
 
-The TianGong LCA Data Platform provides four core data modules for viewing, managing and analyzing lifecycle assessment data. All modules contain models, processes, flows, flow properties, units, sources and contact information, but with different access permissions.
+## Key terminology
 
-## Open Data
+- **Model**: A network of processes describing a product system; can be referenced like a process.  
+- **Process**: A unit-process record containing inputs, outputs, modelling, and management information.  
+- **Flow**: Material, energy, or economic flow linked to unit groups and flow properties.  
+- **Unit group**: A set of related units with defined conversion factors.  
+- **Sources / Contacts**: Reference documents and responsible people attached to datasets.
 
-The **Open Data** module provides standardized LCA datasets reviewed by the platform, available for viewing and referencing by all users. Key features:
+These elements appear in every module, but permissions differ.
 
-- Data sources: Publicly available data sources
-- Permissions: View and use data only
-- Data publishing: User-created datasets can be published here after review
-- Applications: Supports searching, filtering and referencing for research and analysis
+## Module overview
 
-## Commercial Data
+| Module | Primary audience | Main purpose | Permissions | Typical actions |
+| --- | --- | --- | --- | --- |
+| **Open Data** | All platform users | Browse and reference audited datasets | Read-only | Search, filter, copy, export |
+| **Commercial Data** | Users needing third-party datasets | Discover metadata and contact providers | Read metadata | Browse, copy contact info |
+| **My Data** | Authors and maintainers | Create, edit, import, and version datasets | Full CRUD | Create, import, edit, contribute, submit for review |
+| **Team Data** | Team members | Share and reuse collaborative assets | Read-only | Discover, reference, copy to My Data |
 
-The **Commercial Data** module provides metadata for commercial LCA datasets. Key features:
+> Open Data and Commercial Data cannot be edited directly. Copy them to [My Data](/en/user-guide/create-my-data) before making changes.
 
-- Content: Only displays dataset metadata (descriptive information)
-- Permissions: View metadata only
-- Access: Users can contact data providers for complete datasets
-- Publishing: Commercial users can publish reviewed metadata through the platform
+## Module details
 
-> Note:  
-Both Open Data and Commercial Data **cannot be modified directly**. To adjust data, first copy target data to [My Data](./create-my-data.md) module, make modifications there, then reference from [My Data](./create-my-data.md).
+### Open Data
 
-## My Data
+- Audited, standardised lifecycle datasets curated by the TianGong team.  
+- Ideal for research, referencing, and comparison.  
+- Supports search, filtering, copy, and export.
 
-The **My Data** module is the core area for data creation and management, with full operational permissions. Features include:
+### Commercial Data
 
-- **Models**: Visual construction of product LCA models
-- **Processes**: Create and manage unit processes, save product model results
-- **Flows**: Create and edit product flows, waste flows
-- **Flow Properties**: Define physical, chemical, economic properties and composition
-- **Units**: Create and manage unit groups (physical, monetary, energy units etc.)
-- **Sources**: Manage data references and image files (literature, reports etc.)
-- **Contacts**: Maintain personal and team contact information
+- Presents descriptive metadata for commercial datasets.  
+- Use the listed contacts to obtain full datasets from providers.  
+- Suits organisations needing licensed or premium content.
 
-For detailed data creation procedures, see [Creating New Data](./create-my-data.md).
+### My Data
 
-Note: Creating new flow properties and units is not recommended. Use platform-provided standard properties and units to ensure proper LCIA calculations.
+- Your main authoring workspace for models, processes, flows, unit groups, sources, and contacts.  
+- Supports drafts, imports/exports, versioning, and team contributions.  
+- See [Create My Data](/en/user-guide/create-my-data) and [Data Use](/en/user-guide/data-use) for detailed workflows.  
+- ⚠️ Prefer the platform’s standard unit groups and flow properties to avoid LCIA compatibility issues.
 
-## Team Data
+### Team Data
 
-The **Team Data** module manages and shares collaborative team data. Key features:
+- Shows datasets shared within your teams.  
+- Copy items into “My Data” if you need to edit them, then share updates back to the team.  
+- Works hand-in-hand with role management described in [Team Functions](/en/user-guide/team-function).
 
-- Permissions: View only
-- Scope: View all data from joined teams
-- Management: Team admins can maintain data in "My Data" module
-- Collaboration: Supports data sharing and referencing among team members
+## Permission matrix
 
-## Data Operation Permissions
+| Module | View full data | View metadata | Create | Edit | Delete | Copy |
+| --- | --- | --- | --- | --- | --- | --- |
+| Open Data | ✅ | | | | | ✅ |
+| Commercial Data | | ✅ | | | | ✅ |
+| My Data | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Team Data | ✅ | | | | | ✅ |
 
-| Module | View Full Data | View Metadata | Create | Edit | Delete | Copy |
-|--------|----------------|---------------|--------|------|--------|------|
-| Open Data |✅|||||✅|
-| Commercial Data ||✅||||✅|
-| My Data |✅|✅|✅|✅|✅|✅|
-| Team Data |✅|||||✅|
+Next steps: proceed to [Create My Data](/en/user-guide/create-my-data) to build content, or jump to [Team Functions](/en/user-guide/team-function) for collaboration guidance.

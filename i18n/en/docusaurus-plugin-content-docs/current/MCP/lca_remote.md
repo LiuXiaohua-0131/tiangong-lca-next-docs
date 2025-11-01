@@ -2,7 +2,9 @@
 sidebar_position: 4
 ---
 
-# TianGong LCA MCP(Remote)
+# TianGong LCA MCP (Remote)
+
+For the latest release notes, tooling samples, and integration tips, visit the [TianGong MCP Hub](https://hub.ceeai.net/). This page highlights the essentials for using the remote service.
 
 ## Remote Authentication
 
@@ -36,9 +38,9 @@ Log in to the [Tiangong Life Cycle Data Platform](https://lca.tiangong.earth). F
 
 MCP Inspector Launch: Enter the following command in the terminal, which will automatically redirect to the Inspector page.  
 
-    ```bash
-    npx @modelcontextprotocol/inspector
-    ```
+```bash
+npx @modelcontextprotocol/inspector
+```
 
 1. Transport Type Configuration: On the Inspector page, click the dropdown box and select "Streamable HTTP".
 2. URL Address Configuration: Fill in the MCP Server port address in the URL field: [https://lcamcp.tiangong.earth/mcp](https://lcamcp.tiangong.earth/mcp).
@@ -101,7 +103,7 @@ At the [Cherry Studio official website](https://www.cherry-ai.com/download), fol
     {
         "tiangong_lca_remote": {
         "transport": "streamable_http",
-        "url": "https://lcamcp.tiangong.earth/mcp  ",
+        "url": "https://lcamcp.tiangong.earth/mcp",
         "headers": {
             "Accept": "application/json,text/event-stream",
             "Authorization": "Bearer XXX"
