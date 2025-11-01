@@ -3,8 +3,6 @@ title: 数据来源与引用
 description: 规范 TianGong LCA 数据的引用方式，提升溯源透明度。
 ---
 
-# 数据来源与引用常见问题
-
 ## 如何确保数据具备可追溯性？
 
 1. **记录来源**：在“来源”对象中完整填写作者、标题、出版物、年份及链接或 DOI。  
@@ -21,7 +19,7 @@ description: 规范 TianGong LCA 数据的引用方式，提升溯源透明度�
 
 ## 引用 TianGong LCA 数据的推荐格式
 
-> TianGong LCA Platform, Dataset: *数据集名称*, Version X.Y.Z, Retrieval date: YYYY-MM-DD, Available at: https://lca.tiangong.earth/
+> TianGong LCA Platform, Dataset: *数据集名称*, Version X.Y.Z, Retrieval date: YYYY-MM-DD, Available at: [https://lca.tiangong.earth](https://lca.tiangong.earth)
 
 可在此基础上补充项目或研究背景，确保读者能够定位到具体数据。
 

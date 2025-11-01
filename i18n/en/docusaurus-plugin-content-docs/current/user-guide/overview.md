@@ -3,8 +3,6 @@ title: User Guide Map
 description: Orient different roles to the right TianGong LCA tutorials and best practices.
 ---
 
-# User Guide Map
-
 Use this page as your compass through the TianGong LCA documentation. Follow the suggested path—**Learn the interface → Understand data modules → Build & reuse data → Validate & publish → Collaborate → Analyse**—or jump directly to the section that matches your role.
 
 ## Who should read this?

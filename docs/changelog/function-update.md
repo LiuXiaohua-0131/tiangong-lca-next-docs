@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## 2025-07-21
 
-### 新增功能：[计算 LCIA](/user-guide/lcia)。
+### 新增功能：[计算 LCIA](/user-guide/lcia)
 
 ## 2025-06-17
 

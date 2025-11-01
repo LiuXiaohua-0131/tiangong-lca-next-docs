@@ -3,8 +3,6 @@ title: Sources & Citation
 description: Ensure TianGong LCA datasets remain traceable and properly referenced.
 ---
 
-# Sources & Citation FAQ
-
 ## How do I guarantee data traceability?
 
 1. **Record the source**: In the Source object, fill in author(s), title, publication, year, and DOI/URL.  
@@ -21,7 +19,7 @@ See [Create My Data](/en/user-guide/create-my-data#create-source) for the detail
 
 ## Recommended citation format for TianGong datasets
 
-> TianGong LCA Platform, Dataset: *Dataset Name*, Version X.Y.Z, accessed YYYY-MM-DD, available at https://lca.tiangong.earth/
+> TianGong LCA Platform, Dataset: *Dataset Name*, Version X.Y.Z, accessed YYYY-MM-DD, available at [https://lca.tiangong.earth](https://lca.tiangong.earth)
 
 Feel free to add project context or methodology notes as needed.
 

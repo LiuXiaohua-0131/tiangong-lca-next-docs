@@ -3,8 +3,6 @@ sidebar_position: 7
 title: Team Functions
 ---
 
-# Team Functions
-
 Team workspaces centralise shared datasets, enforce permissions, and streamline collaboration. This page explains why teams matter, how to join or create one, and what each role can do.
 
 ## Why use teams?
