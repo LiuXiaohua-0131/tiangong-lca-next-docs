@@ -147,4 +147,9 @@
     "message": "Guidance for deployment.",
     "description": "The generated-index page description for category Deloyment in sidebar tutorialSidebar"
   }
+  ,
+  "sidebar.tutorialSidebar.link.MCP AI 服务": {
+    "message": "MCP AI service",
+    "description": "The label for link MCP AI 服务 in sidebar tutorialSidebar"
+  }
 }

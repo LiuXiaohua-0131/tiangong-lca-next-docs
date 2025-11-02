@@ -87,7 +87,16 @@ const sidebars: SidebarsConfig = {
         title: '集成与扩展',
         description: '连接 MCP 等外部工具，扩展 TianGong LCA 的工作流能力。',
       },
-      items: ['MCP/lca_local', 'MCP/lca_remote', 'MCP/KB_remote'],
+      items: [
+        'MCP/lca_local',
+        'MCP/lca_remote',
+        'MCP/KB_remote',
+        {
+          type: 'link',
+          label: 'MCP AI 服务',
+          href: 'https://tidas.tiangong.earth/docs/integration/tidas-to-ai',
+        },
+      ],
     },
     {
       type: 'category',
